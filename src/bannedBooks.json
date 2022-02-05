@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "A Wrinkle in Time",
+    "amazon": "https://www.amazon.com/Wrinkle-Time-Quintet-Book-ebook/dp/B004OA64H0/",
+    "bn": "https://www.barnesandnoble.com/w/wrinkle-in-time-madeleine-lengle/1100128524"
+  },
+  {
+    "id": 2,
+    "name": "The Absolutely True Diary of a Part-Time Indian",
+    "amazon": "https://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692/",
+    "bn": "https://www.barnesandnoble.com/w/absolutely-true-diary-of-a-part-time-indian-sherman-alexie/1100163889"
+  }
+]
