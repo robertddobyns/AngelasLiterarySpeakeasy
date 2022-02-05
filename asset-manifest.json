@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AngelasLiterarySpeakeasy/static/css/main.073c9b0a.css",
+    "main.js": "/AngelasLiterarySpeakeasy/static/js/main.dca2865f.js",
+    "static/js/787.4fb6008a.chunk.js": "/AngelasLiterarySpeakeasy/static/js/787.4fb6008a.chunk.js",
+    "index.html": "/AngelasLiterarySpeakeasy/index.html",
+    "main.073c9b0a.css.map": "/AngelasLiterarySpeakeasy/static/css/main.073c9b0a.css.map",
+    "main.dca2865f.js.map": "/AngelasLiterarySpeakeasy/static/js/main.dca2865f.js.map",
+    "787.4fb6008a.chunk.js.map": "/AngelasLiterarySpeakeasy/static/js/787.4fb6008a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.dca2865f.js"
+  ]
+}
