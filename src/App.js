@@ -47,13 +47,13 @@ function App() {
     localStorage.setItem('savedBooks', newBooks.toString())
   }
   
-  useEffect(() => {
-    const data = () => {
-      const bookArray = localStorage.getItem("savedBooks").split(',');
-      setSavedBooks(bookArray);
-    }
-    data()
-  },[])
+  // useEffect(() => {
+  //   const data = () => {
+  //     const bookArray = localStorage.getItem("savedBooks").split(',');
+  //     setSavedBooks(bookArray);
+  //   }
+  //   data()
+  // },[])
 
   return (
     <div className="App">
