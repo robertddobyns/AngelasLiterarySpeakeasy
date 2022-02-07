@@ -82,5 +82,59 @@
     "name": "The Hate You Give",
     "amazon": "https://www.amazon.com/Hate-U-Give-Angie-Thomas/dp/0062498533/",
     "bn": "https://www.barnesandnoble.com/w/the-hate-u-give-a-c-thomas/1124651146"
+  },
+  {
+    "id": 15,
+    "name": "The Grapes of Wrath",
+    "amazon": "https://www.amazon.com/Grapes-Wrath-John-Steinbeck-ebook/dp/B001BKTEZA/",
+    "bn": "https://www.barnesandnoble.com/w/grapes-of-wrath-john-steinbeck/1002084358"
+  },
+  {
+    "id": 16,
+    "name": "The Color Purple",
+    "amazon": "https://www.amazon.com/Color-Purple-Alice-Walker-ebook/dp/B005NY4QGM/",
+    "bn": "https://www.barnesandnoble.com/w/color-purple-alice-walker/1100608832"
+  },
+  {
+    "id": 17,
+    "name": "The Lord of the Flies",
+    "amazon": "https://www.amazon.com/Lord-Flies-William-Golding/dp/0399501487/",
+    "bn": "https://www.barnesandnoble.com/w/lord-of-the-flies-william-golding/1100154846"
+  },
+  {
+    "id": 18,
+    "name": "1984",
+    "amazon": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/",
+    "bn": "https://www.barnesandnoble.com/w/1984-george-orwell/1100009100"
+  },
+  {
+    "id": 19,
+    "name": "Song of Solomon",
+    "amazon": "https://www.amazon.com/Song-Solomon-Toni-Morrison/dp/140003342X/",
+    "bn": "https://www.barnesandnoble.com/w/song-of-solomon-toni-morrison/1100265350"
+  },
+  {
+    "id": 20,
+    "name": "The Call of the Wild",
+    "amazon": "https://www.amazon.com/Call-Wild-Readers-Library-Classics/dp/1954839146/",
+    "bn": "https://www.barnesandnoble.com/w/call-of-the-wild-jack-london/1116664291"
+  },
+  {
+    "id": 21,
+    "name": "The Lord of the Rings",
+    "amazon": "https://www.amazon.com/Lord-Rings-One-J-R-R-Tolkien-ebook/dp/B007978OY6/",
+    "bn": "https://www.barnesandnoble.com/w/the-lord-of-the-rings-illustrated-edition-j-r-r-tolkien/1139132593"
+  },
+  {
+    "id": 22,
+    "name": "The Bridge to Terabithia",
+    "amazon": "https://www.amazon.com/Bridge-Terabithia-Katherine-Paterson/dp/0064401847/",
+    "bn": "https://www.barnesandnoble.com/w/bridge-to-terabithia-40th-anniversary-edition-katherine-paterson/1126998281"
+  },
+  {
+    "id": 23,
+    "name": "I Know Why the Caged Bird Sings",
+    "amazon": "https://www.amazon.com/I-Know-Why-Caged-Bird-Sings-audiobook/dp/B004HYHTN6/",
+    "bn": "https://www.barnesandnoble.com/w/i-know-why-the-caged-bird-sings-maya-angelou/1100392955"
   }
 ]
