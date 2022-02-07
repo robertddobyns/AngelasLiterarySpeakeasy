@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AngelasLiterarySpeakeasy/static/css/main.073c9b0a.css",
-    "main.js": "/AngelasLiterarySpeakeasy/static/js/main.fd76715d.js",
+    "main.js": "/AngelasLiterarySpeakeasy/static/js/main.06360896.js",
     "static/js/787.4fb6008a.chunk.js": "/AngelasLiterarySpeakeasy/static/js/787.4fb6008a.chunk.js",
     "index.html": "/AngelasLiterarySpeakeasy/index.html",
     "main.073c9b0a.css.map": "/AngelasLiterarySpeakeasy/static/css/main.073c9b0a.css.map",
-    "main.fd76715d.js.map": "/AngelasLiterarySpeakeasy/static/js/main.fd76715d.js.map",
+    "main.06360896.js.map": "/AngelasLiterarySpeakeasy/static/js/main.06360896.js.map",
     "787.4fb6008a.chunk.js.map": "/AngelasLiterarySpeakeasy/static/js/787.4fb6008a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fd76715d.js"
+    "static/js/main.06360896.js"
   ]
 }
