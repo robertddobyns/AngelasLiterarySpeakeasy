@@ -20,7 +20,9 @@ const headerStyle = {
   height: '100px',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center'
+  justifyContent: 'center',
+  flexDirection: 'column',
+  paddingTop: '20px'
 }
 
 function App() {
@@ -30,6 +32,7 @@ function App() {
     return (
       <Box sx={headerStyle}>
         <Typography variant={'h3'} component={'h1'} gutterBottom>Angela's Literary Speakeasy</Typography>
+        <Typography variant={'h5'}>An ever grown list of books banned in schools and communities across the US</Typography>
       </Box>
     )
   }
@@ -46,14 +49,6 @@ function App() {
     setSavedBooks(newBooks);
     localStorage.setItem('savedBooks', newBooks.toString())
   }
-  
-  // useEffect(() => {
-  //   const data = () => {
-  //     const bookArray = localStorage.getItem("savedBooks").split(',');
-  //     setSavedBooks(bookArray);
-  //   }
-  //   data()
-  // },[])
 
   return (
     <div className="App">

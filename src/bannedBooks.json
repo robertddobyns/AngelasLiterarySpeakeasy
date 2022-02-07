@@ -10,5 +10,77 @@
     "name": "The Absolutely True Diary of a Part-Time Indian",
     "amazon": "https://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692/",
     "bn": "https://www.barnesandnoble.com/w/absolutely-true-diary-of-a-part-time-indian-sherman-alexie/1100163889"
+  },
+  {
+    "id": 3,
+    "name": "Roll of Thunder, Hear My Cry",
+    "amazon": "https://www.amazon.com/Roll-Thunder-Hear-Cry-Instructional/dp/1425889875/",
+    "bn": "https://www.barnesandnoble.com/w/roll-of-thunder-hear-my-cry-mildred-d-taylor/1100734256"
+  },
+  {
+    "id": 4,
+    "name": "The Handmaid's Tale",
+    "amazon": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS/",
+    "bn": "https://www.barnesandnoble.com/w/handmaids-tale-margaret-atwood/1100295471"
+  },
+  {
+    "id": 5,
+    "name": "The Catcher in the Rye",
+    "amazon": "https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769177/",
+    "bn": "https://www.barnesandnoble.com/w/catcher-in-the-rye-j-d-salinger/1100192775"
+  },
+  {
+    "id": 6,
+    "name": "Of Mice and Men",
+    "amazon": "https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396/",
+    "bn": "https://www.barnesandnoble.com/w/of-mice-and-men-john-steinbeck/1100154558"
+  },
+  {
+    "id": 7,
+    "name": "The Adventures of Huckleberry Finn",
+    "amazon": "https://www.amazon.com/Adventures-Huckleberry-Finn-First-published/dp/B093MVVSSD/",
+    "bn": "https://www.barnesandnoble.com/w/barnes-noble-leatherbound-classics-the-adventures-of-huckleberry-finn-mark-twain/1106658822"
+  },
+  {
+    "id": 8,
+    "name": "The Kite Runner",
+    "amazon": "https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/159463193X/",
+    "bn": "https://www.barnesandnoble.com/w/kite-runner-khaled-hosseini/1100224666"
+  },
+  {
+    "id": 9,
+    "name": "To Kill a Mockingbird",
+    "amazon": "https://www.amazon.com/To-Kill-Mockingbird-Harper-Lee-audiobook/dp/B00K1HPPXO/",
+    "bn": "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011"
+  },
+  {
+    "id": 10,
+    "name": "The Giver",
+    "amazon": "https://www.amazon.com/The-Giver-Lois-Lowry-audiobook/dp/B0000YSH4W/",
+    "bn": "https://www.barnesandnoble.com/w/giver-lois-lowry/1100295882"
+  },
+  {
+    "id": 11,
+    "name": "The Outsiders",
+    "amazon": "https://www.amazon.com/The-Outsiders-S-E-Hinton-audiobook/dp/B0002QU5CK/",
+    "bn": "https://www.barnesandnoble.com/w/outsiders-se-hinton/1100458329"
+  },
+  {
+    "id": 12,
+    "name": "Thirteen Reasons Why",
+    "amazon": "https://www.amazon.com/Thirteen-Reasons-Why-Jay-Asher/dp/159514188X/",
+    "bn": "https://www.barnesandnoble.com/w/thirteen-reasons-why-jay-asher/1008421039"
+  },
+  {
+    "id": 13,
+    "name": "Harry Potter series",
+    "amazon": "https://www.amazon.com/Harry-Potter-Paperback-Box-Books/dp/0545162076/",
+    "bn": "https://www.barnesandnoble.com/w/harry-potter-and-the-sorcerers-stone-rowling-j-k/1133614639"
+  },
+  {
+    "id": 14,
+    "name": "The Hate You Give",
+    "amazon": "https://www.amazon.com/Hate-U-Give-Angie-Thomas/dp/0062498533/",
+    "bn": "https://www.barnesandnoble.com/w/the-hate-u-give-a-c-thomas/1124651146"
   }
 ]
