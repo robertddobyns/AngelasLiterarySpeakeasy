@@ -22,7 +22,9 @@ const headerStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   flexDirection: 'column',
-  paddingTop: '20px'
+  paddingTop: '20px',
+  margin: '10px',
+  marginBottom: '50px'
 }
 
 function App() {
@@ -32,7 +34,7 @@ function App() {
     return (
       <Box sx={headerStyle}>
         <Typography variant={'h3'} component={'h1'} gutterBottom>Angela's Literary Speakeasy</Typography>
-        <Typography variant={'h5'}>An ever grown list of books banned in schools and communities across the US</Typography>
+        <Typography variant={'subtitle'}>An ever growing list of books banned in schools and communities across the US</Typography>
       </Box>
     )
   }
