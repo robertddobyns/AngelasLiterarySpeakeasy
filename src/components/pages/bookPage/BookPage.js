@@ -19,7 +19,7 @@ const BookPage = () => {
   
   return (
     <Box>
-      The information page for {page.name} will be coming shortly.
+      The information page for {page.name} will be coming shortly
     </Box>
   )
   
