@@ -19,9 +19,7 @@ const BookPage = () => {
   
   return (
     <Box>
-      {page.name}
-      {page.amazon}
-      {page.bn}
+      The information page for {page.name} will be coming shortly.
     </Box>
   )
   
