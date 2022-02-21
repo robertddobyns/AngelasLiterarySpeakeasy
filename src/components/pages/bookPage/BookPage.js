@@ -1,7 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import {Box, styled} from '@mui/material';
+import {Box, styled, Typography} from '@mui/material';
 import pageData from '../../bannedBooks.json';
 import {useParams} from "react-router-dom";
+import SchoolInfo from "./SchoolInfo";
+
+const Root = styled('div')(({theme}) =>({
+  maxWidth: '1000px',
+  margin: '0 auto',
+}))
 
 const BookPage = () => {
   const [page, setPage] = useState([]);
@@ -16,11 +22,22 @@ const BookPage = () => {
     data()
   }, [])
   
-  
   return (
-    <Box>
-      The information page for {page.name} will be coming shortly
-    </Box>
+    <Root>
+      <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
+      <Typography variant={'h5'} sx={{textAlign: 'center'}}>By: {page.author}</Typography>
+      <Box>
+        {page.locations && <Typography variant={'h4'}>Locations</Typography>}
+        {page.locations?.map(item => (
+          <SchoolInfo
+            name={item.name}
+            city={item.city}
+            state={item.state}
+            reasons={item.reasons}
+            year={item.year}
+          />))}
+      </Box>
+    </Root>
   )
   
 }

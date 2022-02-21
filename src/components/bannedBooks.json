@@ -3,6 +3,10 @@
     "id": 1,
     "name": "A Wrinkle in Time",
     "url": "a-wrinkle-in-time",
+    "author": "Madeleine L'Engle",
+    "locations": [
+
+    ],
     "amazon": "https://www.amazon.com/Wrinkle-Time-Quintet-Book-ebook/dp/B004OA64H0/",
     "bn": "https://www.barnesandnoble.com/w/wrinkle-in-time-madeleine-lengle/1100128524"
   },
@@ -10,6 +14,285 @@
     "id": 2,
     "name": "The Absolutely True Diary of a Part-Time Indian",
     "url": "the-absolutely-true-diary-of-a-part-time-indian",
+    "author": "Sherman Alexie",
+    "locations": [
+      {
+        "name":  "Sauk Prairie High School",
+        "city": "Prairie du Sac",
+        "state": "WI",
+        "status": "failed",
+        "reasons": [
+          "Profanity",
+          "Violence",
+          "Sexual References"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "New London-Spicer School District",
+        "city": "New London",
+        "state": "MN",
+        "status": "failed",
+        "reasons": [
+          "Gratuitous and unnecessary profanity",
+          "References to sexual acts"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Stockton School District",
+        "city": "Stockton",
+        "state": "MO",
+        "status": "Banned",
+        "reasons": [
+          "Language",
+          "Sexual Content",
+          "Violence"
+        ],
+        "year": 2011
+      },
+      {
+        "name": "Helena School District",
+        "city": "Helena",
+        "state": "MT",
+        "status": "Failed",
+        "reasons": [
+          "obscene, vulgar, and pornographic language"
+        ],
+        "year": "2011"
+      },
+      {
+        "name": "North Albany Middle School",
+        "city": "North Albany",
+        "state": "NY",
+        "status": "failed",
+        "reasons": [
+          "language",
+          "references to masturbation"
+        ],
+        "year": 2020
+      },
+      {
+        "name": "Midland Public School",
+        "city": "Midland",
+        "state": "MI",
+        "status": "retained but restricted",
+        "reasons": [
+          "alcohol",
+          "bullying",
+          "violence",
+          "sexual references",
+          "profanity",
+          "slurs"
+        ],
+        "year": 2019
+      },
+      {
+        "name": "Conejo Valley Unified School District",
+        "city": "Conejo Valley",
+        "state": "CA",
+        "status": "failed",
+        "reasons": [
+          "Sexuality",
+          "Profanity"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Democracy Prep",
+        "city": "Democracy",
+        "state": "NV",
+        "status": "failed",
+        "reasons": [
+          "language",
+          "sexual references"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Alton High School",
+        "city": "Alton",
+        "state": "IL",
+        "status": "banned briefly then failed after review",
+        "reasons": [
+          "unspecified complaint from a parent"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Brunswick County Schools",
+        "city": "Brunswick",
+        "state": "NC",
+        "status": "failed",
+        "reasons": [
+          "Bestiality",
+          "Pornographic"
+        ],
+        "year": 2016
+      },
+      {
+        "name": "Meridian High School",
+        "city": "Meridian",
+        "state": "ID",
+        "status": "banned",
+        "reasons": [
+          "Masturbation",
+          "Profanity",
+          "Anti-Christian"
+        ],
+        "year": 2015
+      },
+      {
+        "name": "Cedar Grove Middle School",
+        "city": "Wilmington",
+        "state": "NC",
+        "status": "unknown",
+        "reasons": [
+          "Sexual behavior",
+          "Racism",
+          "Vulgar language",
+          "Bullying",
+          "Violence"
+        ],
+        "year": 2015
+      },
+      {
+        "name": "Highland Park Ind. School District",
+        "city": "Highland Park",
+        "state": "TX",
+        "status": "Banned then failed after national outrage",
+        "reasons": [
+          "unknown"
+        ],
+        "year": 2015
+      },
+      {
+        "name": "Queens Middle School",
+        "city": "Queens",
+        "state": "NY",
+        "status": "Banned",
+        "reasons": [
+          "Masturbation"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Skyview High School",
+        "city": "Billings",
+        "state": "MT",
+        "status": "Banned",
+        "reasons": [
+          "His book is, shockingly, written by a Native American who reinforces all the negative stereotypes of his people and does it from the crude, obscene, and unfiltered viewpoint of a 9th-grader growing up on the reservation"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Jefferson County Schools",
+        "city": "Jefferson County",
+        "state": "WV",
+        "status": "Banned",
+        "reasons": [
+          "graphic nature"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Sweet Home Junior High School",
+        "city": "Sweet Home",
+        "state": "OR",
+        "status": "Failed but alternative lessons available",
+        "reasons": [
+          "Objectification of women and young girls"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Westfield High School, Westfield, NJ",
+        "city": "Westfield",
+        "state": "NJ",
+        "status": "",
+        "reasons": [
+          "Some very sensitive material in the book including excerpts on masturbation amongst other explicit sexual references, encouraging pornography, racism, religious irreverence, and strong language (including the f- and, n-words).some very sensitive material in the book including excerpts on masturbation amongst other explicit sexual references, encouraging pornography, racism, religious irreverence, and strong language (including the f- and n-words)."
+        ],
+        "year": 2013
+      },
+      {
+        "name": "West Valley School District",
+        "city": "Yakima",
+        "state": "WA",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Sexual references",
+          "Profanity"
+        ],
+        "year": 2013
+      },
+      {
+        "name": "Richland School District",
+        "city": "Richland",
+        "state": "WA",
+        "status": "Banned then Failed",
+        "reasons": [
+          "Coarse themes",
+          "Language"
+        ],
+        "year": 2012
+      },
+      {
+        "name": "Dade County Library",
+        "city": "Dade County",
+        "state": "GA",
+        "status": "Banned",
+        "reasons": [
+          "Vulgarity",
+          "Racism",
+          "Anti-Christian Content"
+        ],
+        "year": 2012
+      },
+      {
+        "name": "Old Rochester Regional Junior High School",
+        "city": "Mattapoisett",
+        "state": "MA",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2012
+      },
+      {
+        "name": "Westfield High School",
+        "city": "Westfield",
+        "state": "NJ",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Some very sensitive material in the book including excerpts on masturbation amongst other explicit sexual references, encouraging pornography, racism, religious irreverence, and strong language (including the f- and n-words)"
+        ],
+        "year": 2012
+      },
+      {
+        "name": "Antioch High School",
+        "city": "Antioch",
+        "state": "IL",
+        "status": "Failed but reviewed each March",
+        "reasons": [
+          "Vulgar Language",
+          "Racist"
+        ],
+        "year": 2010
+      },
+      {
+        "name": "Crook County High School",
+        "city": "Prineville",
+        "state": "OR",
+        "status": "Banned",
+        "reasons": [
+          "Offensive"
+        ],
+        "year": 2009
+      }
+
+    ],
     "amazon": "https://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692/",
     "bn": "https://www.barnesandnoble.com/w/absolutely-true-diary-of-a-part-time-indian-sherman-alexie/1100163889"
   },
