@@ -5,9 +5,6 @@ const Root = styled('div')(({theme}) => ({
   margin: '0 auto',
   textAlign: 'center',
   marginBottom: '30px',
-  [theme.breakpoints.down('sm')]: {
-    backgroundColor: 'red'
-  }
 }))
 
 const TitleContainer = styled('div')(({theme}) => ({
