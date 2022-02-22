@@ -1,5 +1,6 @@
 import React from 'react';
 import {styled, Box, Typography} from "@mui/material";
+import config from '../../config.json';
 
 const Root = styled('div')(({theme}) => ({
 	backgroundColor: '#570861',
@@ -54,7 +55,7 @@ const Footer = () => {
 				<Box>Donations</Box>
 			</LinksContainer>
 			<InfoContainer>
-				Version: 0.1.001 | Last Updated 02-21-2022
+				Version: {config.VERSION} | Last Updated {config.PUBLISH_DATE}
 			</InfoContainer>
 		</Root>
 	)

@@ -640,6 +640,200 @@
     "id": 7,
     "name": "The Adventures of Huckleberry Finn",
     "url": "the-adventures-of-huckleberry-finn",
+    "author": "Mark Twain",
+    "locations": [
+      {
+        "name": "Burbank Unified School District",
+        "city": "Burbank",
+        "state": "CA",
+        "status": "Cant be required, but allowed in libraries",
+        "reasons": [
+          "Racial epithets"
+        ],
+        "year": 2021
+      },
+      {
+        "name": "Duluth School District",
+        "city": "Duluth",
+        "state": "MN",
+        "status": "Removed from curriculum, remains in library",
+        "reasons": [
+          "To protect the dignity of our students"
+        ],
+        "year": 2019
+      },
+      {
+        "name": "Lawrence High School",
+        "city": "Lawrence",
+        "state": "KS",
+        "status": "Not banned but downgraded to district-approved common novel",
+        "reasons": [
+          "Offensive language"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Accomack County Public Schools",
+        "city": "Accomack County",
+        "state": "VA",
+        "status": "Banned then reinstated",
+        "reasons": [
+          "Racial slurs"
+        ],
+        "year": 2017
+      },
+      {
+        "name": "Montgomery County School District",
+        "city": "Montgomery County",
+        "state": "PA",
+        "status": "Banned",
+        "reasons": [
+          "Racial Epithets"
+        ],
+        "year": 2016
+      },
+      {
+        "name": "Unknown",
+        "city": "Concord",
+        "state": "MA",
+        "status": "Banned",
+        "reasons": [
+          "Trash and suitable only for the slums"
+        ],
+        "year": 1885
+      },
+      {
+        "name": "Manchester School District",
+        "city": "Manchester",
+        "state": "CN",
+        "status": "Failed but teachers must attend a seminar on race before teaching about the book",
+        "reasons": [
+          "Racial Epithets"
+        ],
+        "year": 2009
+      },
+      {
+        "name": "Lakeville High School",
+        "city": "Lakeville",
+        "state": "MN",
+        "status": "Failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2008
+      },
+      {
+        "name": "St. Louis Park High School",
+        "city": "Minneapolis",
+        "state": "MN",
+        "status": "Failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2008
+      },
+      {
+        "name": "Richland High School",
+        "city": "North Richland Hills",
+        "state": "TX",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Racial epithets"
+        ],
+        "year": 2008
+      },
+      {
+        "name": "Manchester High School",
+        "city": "Manchester",
+        "state": "CN",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Use of the N-Word 212 times"
+        ],
+        "year": 2008
+      },
+      {
+        "name": "Taylor School District",
+        "city": "Taylor",
+        "state": "MI",
+        "status": "Banned",
+        "reasons": [
+          "Liberal use of racial slurs"
+        ],
+        "year": 2007
+      },
+      {
+        "name": "Cactus High",
+        "city": "Peoria",
+        "state": "AZ",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Racial treatment",
+          "Racial epithets"
+        ],
+        "year": 2007
+      },
+      {
+        "name": "Lakeville School District",
+        "city": "Lakeville",
+        "state": "MN",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2007
+      },
+      {
+        "name": "Normal Community High School",
+        "city": "Normal",
+        "state": "IL",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Degrading to African Americans"
+        ],
+        "year": 2005
+      },
+      {
+        "name": "Renton High Schools",
+        "city": "Renton",
+        "state": "WA",
+        "status": "Banned from reading lists, unknown if still in school libraries",
+        "reasons": [
+          "Degrading to an African American student and their culture"
+        ],
+        "year": 2004
+      },
+      {
+        "name": "Portland School District",
+        "city": "Portland",
+        "state": "OR",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Racial Epithets"
+        ],
+        "year": 2003
+      },
+      {
+        "name": "Enid School District",
+        "city": "Enid",
+        "state": "OK",
+        "status": "Failed",
+        "reasons": [
+          "Offensive language"
+        ],
+        "year": 2001
+      },
+      {
+        "name": "Kankakee School District",
+        "city": "Kankakee",
+        "state": "IL",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Offensive Language"
+        ],
+        "year": 2001
+      }
+    ],
     "amazon": "https://www.amazon.com/Adventures-Huckleberry-Finn-First-published/dp/B093MVVSSD/",
     "bn": "https://www.barnesandnoble.com/w/barnes-noble-leatherbound-classics-the-adventures-of-huckleberry-finn-mark-twain/1106658822"
   },
