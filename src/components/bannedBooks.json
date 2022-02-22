@@ -841,6 +841,173 @@
     "id": 8,
     "name": "The Kite Runner",
     "url": "the-kite-runner",
+    "author": "Khaled Hosseini",
+    "locations": [
+      {
+        "name": "Park City School District",
+        "city": "Park City",
+        "state": "UT",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Child rape scene",
+          "Possibly violated criminal code"
+        ],
+        "year": 2020
+      },
+      {
+        "name": "Conejo Valley Unified School District",
+        "city": "Conejo Valley",
+        "state": "CA",
+        "status": "Failed",
+        "reasons": [
+          "Sexuality",
+          "Profanity"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Fishers High School",
+        "city": "Fishers",
+        "state": "IN",
+        "status": "Failed",
+        "reasons": [
+          "Same-Sex Gang Rape",
+          "Depiction of Distrust in Adults"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Higley Unified School District",
+        "city": "Higley",
+        "state": "AZ",
+        "status": "Banned",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Williamsfield High School",
+        "city": "Gilbert",
+        "state": "AZ",
+        "status": "Banned",
+        "reasons": [
+          "Pulled suddenly with no reason given. When the student newspaper investigated the school shut down the paper"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Buncombe County School District",
+        "city": "Buncombe County",
+        "state": "NC",
+        "status": "Banned then reinstated",
+        "reasons": [
+          "Schools must only teach Sex Ed from an abstinence-only perspective"
+        ],
+        "year": 2016
+      },
+      {
+        "name": "Waukesha High School",
+        "city": "Waukesha",
+        "state": "WI",
+        "status": "Failed",
+        "reasons": [
+          "Desensitizes students to violence"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Troy Area Schools",
+        "city": "Troy",
+        "state": "PA",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Rape in graphic detail",
+          "Vulgar language"
+        ],
+        "year": 2013
+      },
+      {
+        "name": "Valley High School",
+        "city": "Jonesboro",
+        "state": "AR",
+        "status": "Failed",
+        "reasons": [
+          "Male-on-male rape",
+          "Sexual innuendo",
+          "Vulgar language",
+          "Religious content"
+        ],
+        "year":2012
+      },
+      {
+        "name": "Troy Area Schools",
+        "city": "Troy",
+        "state": "PA",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Sodomy",
+          "Rape in graphic detail",
+          "Vulgar language"
+        ],
+        "year": 2012
+      },
+      {
+        "name": "Freedom High School",
+        "city": "Morganton",
+        "state": "NC",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Sodomy",
+          "Rape in graphic detail",
+          "Vulgar language"
+        ],
+        "year":2009
+      },
+      {
+        "name": "Jackson County School District",
+        "city": "Marianna",
+        "state": "FL",
+        "status": "Failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2009
+      },
+      {
+        "name": "Centennial High School",
+        "city": "Champaign",
+        "state": "IL",
+        "status": "Banned",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2009
+      },
+      {
+        "name": "Morgantown School District",
+        "city": "Morgantown",
+        "state": "NC",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Violence",
+          "Sexual situations"
+        ],
+        "year": 2009
+      },
+      {
+        "name": "Freedom High School",
+        "city": "Morganton",
+        "state": "NC",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Sodomy",
+          "Rape in graphic detail",
+          "Vulgar language"
+        ],
+        "year": 2008
+      }
+    ],
     "amazon": "https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/159463193X/",
     "bn": "https://www.barnesandnoble.com/w/kite-runner-khaled-hosseini/1100224666"
   },
