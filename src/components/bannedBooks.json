@@ -300,6 +300,29 @@
     "id": 3,
     "name": "Roll of Thunder, Hear My Cry",
     "url": "roll-of-thunder-hear-my-cry",
+    "author": "Mildred D. Taylor",
+    "locations": [
+      {
+        "name": "Burbank Unified School District",
+        "city": "Burbank",
+        "state": "CA",
+        "status": "Banned from Classroom but allowed in Library",
+        "reasons": [
+          "racist epithets"
+        ],
+        "year": 2021
+      },
+      {
+        "name": "Seminole County School District",
+        "city": "Seminole County",
+        "state": "FL",
+        "status": "Failed",
+        "reasons": [
+          "Inappropriate for a 13-year-old boy"
+        ],
+        "year": 2004
+      }
+    ],
     "amazon": "https://www.amazon.com/Roll-Thunder-Hear-Cry-Instructional/dp/1425889875/",
     "bn": "https://www.barnesandnoble.com/w/roll-of-thunder-hear-my-cry-mildred-d-taylor/1100734256"
   },
@@ -307,6 +330,102 @@
     "id": 4,
     "name": "The Handmaid's Tale",
     "url": "the-handmaids-tale",
+    "author": "Margaret Atwood",
+    "locations": [
+      {
+        "name": "unknown",
+        "city": "Atlanta Suburb",
+        "state": "GA",
+        "status": "Failed",
+        "reasons": [
+          "Porn",
+          "Gore",
+          "Cursing"
+        ],
+        "year": 2020
+      },
+      {
+        "name": "Marietta High School",
+        "city": "Marietta",
+        "state": "OH",
+        "status": "Failed",
+        "reasons": [
+          "Vulgarity",
+          "Sexual Overtones"
+        ],
+        "year": 2020
+      },
+      {
+        "name": "Wyomissing High School",
+        "city": "Wyomissing",
+        "state": "PA",
+        "status": "Failed",
+        "reasons": [
+          "Vulgar language",
+          "Graphic depictions of sex"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Page High School",
+        "city": "Greensboro",
+        "state": "NC",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Sexually explicit",
+          "Violently graphic",
+          "Morally corrupt",
+          "Detrimental to Christian values"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Grimsley High School",
+        "city": "Guilford",
+        "state": "NC",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Sexually explicit",
+          "Violently graphic",
+          "Morally corrupt",
+          "Detrimental to Christian values"
+        ],
+        "year": 2014
+      },
+      {
+        "name": "Page High School",
+        "city": "Greensboro",
+        "state": "NC",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Sexually explicit",
+          "Violently graphic",
+          "Morally corrupt",
+          "Detrimental to Christian values"
+        ],
+        "year": 2013
+      },
+      {
+        "name": "Judson School Board",
+        "city": "Judson",
+        "state": "TX",
+        "status": "Banned, overturned",
+        "reasons": [
+          "unknown"
+        ],
+        "year": 2006
+      },
+      {
+        "name": "Upper Moreland School District",
+        "city": "Upper Moreland",
+        "state": "PA",
+        "status": "Downgraded from Required to Optional",
+        "reasons": [
+          "Inappropriate Subject Matter"
+        ],
+        "year": 2001
+      }
+    ],
     "amazon": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS/",
     "bn": "https://www.barnesandnoble.com/w/handmaids-tale-margaret-atwood/1100295471"
   },
@@ -314,6 +433,70 @@
     "id": 5,
     "name": "The Catcher in the Rye",
     "url": "the-catcher-in-the-rye",
+    "author": "J. D. Salinger",
+    "locations": [
+      {
+        "name": "Conejo Valley Unified School District",
+        "city": "Conejo Valley",
+        "state": "CA",
+        "status": "Failed",
+        "reasons": [
+          "Profanity",
+          "Sexuality"
+        ],
+        "year": 2018
+      },
+      {
+        "name": "Martin County School District",
+        "city": "Martin County",
+        "state": "FL",
+        "status": "Failed",
+        "reasons": [
+          "Inappropriate language"
+        ],
+        "year": 2011
+      },
+      {
+        "name": "Big Sky High School",
+        "city": "Missoula",
+        "state": "MT",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2009
+      },
+      {
+        "name": "Noble High School",
+        "city": "North Berwick",
+        "state": "ME",
+        "status": "Failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2005
+      },
+      {
+        "name": "Unknown",
+        "city": "Unknown",
+        "state": "SC",
+        "status": "Banned",
+        "reasons": [
+          "Filthy, Filthy Book"
+        ],
+        "year": 2002
+      },
+      {
+        "name": "Unknown",
+        "city": "Unknown",
+        "state": "GA",
+        "status": "Failed",
+        "reasons": [
+          "Profanity"
+        ],
+        "year": 2002
+      }
+    ],
     "amazon": "https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769177/",
     "bn": "https://www.barnesandnoble.com/w/catcher-in-the-rye-j-d-salinger/1100192775"
   },
@@ -321,6 +504,135 @@
     "id": 6,
     "name": "Of Mice and Men",
     "url": "of-mice-and-men",
+    "author": "John Steinbeck",
+    "locations": [
+      {
+        "name": "Henry Sibley High School",
+        "city": "Mendota Heights",
+        "state": "MN",
+        "status": "Banned",
+        "reasons": [
+          "Use of the N-word"
+        ],
+        "year":2021
+      },
+      {
+        "name": "Burbank Unified School District",
+        "city": "Burbank",
+        "state": "CA",
+        "status": "No student can be required but allowed in library",
+        "reasons": [
+          "Racist epithets"
+        ],
+        "year": 2021
+      },
+      {
+        "name": "Unknown",
+        "city": "Coeur d'Alene",
+        "state": "ID",
+        "status": "Failed",
+        "reasons": [
+          "Too negative"
+        ],
+        "year": 2016
+      },
+      {
+        "name": "Brauberd School District",
+        "city": "Brauberd",
+        "state": "MN",
+        "status": "Failed",
+        "reasons": [
+          "Jesus Christ as a swear word",
+          "Racist epithets",
+          "The word Japs",
+          "Undermines the values of respect in the children"
+        ],
+        "year": 2015
+      },
+      {
+        "name": "Newton High School",
+        "city": "Newton",
+        "state": "IA",
+        "status": "Failed",
+        "reasons": [
+          "Profanity",
+          "Negative portrayal of Jesus Christ",
+          "Derogatory towards African Americans, women, and the developmentally disabled"
+        ],
+        "year":2008
+      },
+      {
+        "name": "Newton High School",
+        "city": "Newton",
+        "state": "IA",
+        "status": "Failed",
+        "reasons": [
+          "Profanity",
+          "Negative portrayal of Jesus Christ",
+          "Derogatory towards African Americans, women, and the developmentally disabled"
+        ],
+        "year":2008
+      },
+      {
+        "name": "Greencastle-Antrim High School",
+        "city": "Franklin County",
+        "state": "PA",
+        "status": "Unknown",
+        "reasons": [
+          "Racial slurs",
+          "Profanity"
+        ],
+        "year": 2007
+      },
+      {
+        "name": "Normal Community High School",
+        "city": "Normal",
+        "state": "IL",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Racial slurs",
+          "Profanity",
+          "Violence",
+          "Does not represent traditional values"
+        ],
+        "year": 2005
+      },
+      {
+        "name": "Normal Community High School",
+        "city": "Normal",
+        "state": "IL",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Racial slurs",
+          "Profanity",
+          "Violence",
+          "Does not represent traditional values"
+        ],
+        "year": 2004
+      },
+      {
+        "name": "Grandville High School",
+        "city": "Grandville",
+        "state": "MI",
+        "status": "Challenged, Unknown",
+        "reasons": [
+          "Racism",
+          "Profanity",
+          "Foul language"
+        ],
+        "year": 2003
+      },
+      {
+        "name": "George County School District",
+        "city": "George County",
+        "state": "MS",
+        "status": "Banned",
+        "reasons": [
+          "Profanity"
+        ],
+        "year": 2003
+      }
+    ],
     "amazon": "https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396/",
     "bn": "https://www.barnesandnoble.com/w/of-mice-and-men-john-steinbeck/1100154558"
   },
@@ -442,5 +754,9 @@
     "url": "i-know-why-the-caged-bird-sings",
     "amazon": "https://www.amazon.com/I-Know-Why-Caged-Bird-Sings-audiobook/dp/B004HYHTN6/",
     "bn": "https://www.barnesandnoble.com/w/i-know-why-the-caged-bird-sings-maya-angelou/1100392955"
+  },
+  {
+    "id": 24,
+    "name": "Maus"
   }
 ]

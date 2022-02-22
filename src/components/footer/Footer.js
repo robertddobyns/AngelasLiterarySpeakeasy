@@ -30,13 +30,19 @@ const LinksContainer = styled('div')(({theme}) => ({
 	
 }));
 
+const InfoContainer = styled('div')(({theme}) => ({
+	color: 'white'
+}))
+
 const Footer = () => {
 	
 	
 	return (
 		<Root>
 			<FooterStatement>
-				If you would like to help us out and you know the specifics of a banned book, please send an email to <a href={'mailto:literaryspeakeasy@gmail.com'} style={{color: 'lightyellow'}}>LiterarySpeakeasy@gmail.com</a> with the location, reason, and book name. If we can verify it, we will add it to the list
+				I have done my best to track down the truth on these pages. It is absolutely possible that there were errors made. If so, please email me and let me know.
+				If you would like to help me out and you know the specifics of a banned book, please send an email to <a href={'mailto:literaryspeakeasy@gmail.com'} style={{color: 'lightyellow'}}>LiterarySpeakeasy@gmail.com</a> with
+				the location, reason, and book name. If I can verify it, I will add it to the list.
 			</FooterStatement>
 			<Typography sx={{color: 'yellow', textAlign: 'center'}}>Coming Soon</Typography>
 			<LinksContainer>
@@ -47,6 +53,9 @@ const Footer = () => {
 				<Box>References</Box>
 				<Box>Donations</Box>
 			</LinksContainer>
+			<InfoContainer>
+				Version: 0.1.001 | Last Updated 02-21-2022
+			</InfoContainer>
 		</Root>
 	)
 	
