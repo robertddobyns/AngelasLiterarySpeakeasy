@@ -6,13 +6,18 @@ const Root = styled('div')(({theme}) => ({
 }))
 
 const SchoolInfo = (props) => {
+	const name = props.name || ''
+	const city = props.city || ''
+	const state = props.state || ''
+	const year = props.year || ''
+	const reasons = props.reasons || []
 
 	return (
 		<Root>
-			<Typography variant={'h6'}>{props.name}</Typography>
-			<Typography>{props.city}, {props.state}</Typography>
-			<Typography>Year: {props.year}</Typography>
-			<Typography>Reasons: {props.reasons.map(item => <Typography>&emsp;{item}</Typography>)}</Typography>
+			<Typography variant={'h6'}>{name}</Typography>
+			<Typography>{city}, {state}</Typography>
+			<Typography>Year: {year}</Typography>
+			<Typography>Reasons: {reasons.map(item => <Typography>&emsp;{item}</Typography>)}</Typography>
 			<hr/>
 		</Root>
 	)

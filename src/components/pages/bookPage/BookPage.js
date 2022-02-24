@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Box, styled, Typography} from '@mui/material';
+import {Box, Input, InputLabel, MenuItem, Select, styled, Typography} from '@mui/material';
 import pageData from '../../bannedBooks.json';
 import {useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
@@ -19,16 +19,61 @@ const BannedListContainer = styled('div')(({theme}) => ({
 
 const BookPage = () => {
   const [page, setPage] = useState([]);
+  const [locationArray, setLocationArray] = useState([])
+  const [stateFilter, setStateFilter] = useState('All')
+  const [filteredStates, setFilteredStates] = useState(['moo'])
   let pageUrl = useParams();
   
   useEffect(() => {
+    
     const data = () => {
       const info = pageData.find(i => i.url === pageUrl.bookName);
+      let locations = [];
       setPage(info);
+     
+      locations = info.locations.map(item => item.state)
+      locations = locations.filter((item, index) => locations.indexOf(item) === index);
+      locations = locations.sort();
+      setLocationArray(locations);
     }
     
     data()
   }, [])
+  
+  const displayBannedStates = (state) => {
+    let stateArray = page.locations.filter(item => item.state === state);
+    setFilteredStates(stateArray);
+  }
+  
+  const handleStateChange = (e) => {
+    const state = e.target.value;
+    setStateFilter(state)
+    displayBannedStates(state)
+  }
+  
+  const filteredList = () => {
+    return filteredStates.map(item =>
+      <SchoolInfo
+        name={item.name}
+        city={item.city}
+        state={item.state}
+        reasons={item.reasons}
+        year={item.year}
+      />) || ''
+  }
+  
+  const unfilteredList = () => {
+    return page.locations?.map(item =>
+      <SchoolInfo
+        name={item.name}
+        city={item.city}
+        state={item.state}
+        reasons={item.reasons}
+        year={item.year}
+      />
+    )
+  }
+
   
   return (
     <Root>
@@ -36,14 +81,18 @@ const BookPage = () => {
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
       <BannedListContainer>
         {page.locations?.length > 0 && <Typography variant={'h4'}>Banned Locations</Typography>}
-        {page.locations?.map(item => (
-          <SchoolInfo
-            name={item.name}
-            city={item.city}
-            state={item.state}
-            reasons={item.reasons}
-            year={item.year}
-          />))}
+        <InputLabel id={'state-label'}>Select State</InputLabel>
+        <Select
+          labelId={'state-label'}
+          onChange={handleStateChange}
+          value={stateFilter}
+          label={'Select State'}
+        >
+          <MenuItem value={'All'}>All</MenuItem>
+          {locationArray?.map(item => item && <MenuItem key={item.name} value={item || ''}>{item || ''}</MenuItem>)}
+        </Select>
+        {stateFilter !== 'All' ? filteredList() : unfilteredList()
+        }
       </BannedListContainer>
     </Root>
   )
