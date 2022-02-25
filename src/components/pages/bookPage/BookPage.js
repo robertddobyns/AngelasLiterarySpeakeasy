@@ -73,6 +73,7 @@ const BookPage = () => {
         name={item.name}
         city={item.city}
         state={item.state}
+        status={item.status}
         reasons={item.reasons}
         year={item.year}
       />
