@@ -17,6 +17,11 @@ const BannedListContainer = styled('div')(({theme}) => ({
   }
 }));
 
+const BannedListTitleContainer = styled('div')(({}) => ({
+  display: 'flex',
+  alignItems: 'center'
+}));
+
 const BookPage = () => {
   const [page, setPage] = useState([]);
   const [locationArray, setLocationArray] = useState([])
@@ -80,17 +85,21 @@ const BookPage = () => {
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
       <BannedListContainer>
-        {page.locations?.length > 0 && <Typography variant={'h4'}>Banned Locations</Typography>}
-        <InputLabel id={'state-label'}>Select State</InputLabel>
-        <Select
-          labelId={'state-label'}
-          onChange={handleStateChange}
-          value={stateFilter}
-          label={'Select State'}
-        >
-          <MenuItem value={'All'}>All</MenuItem>
-          {locationArray?.map(item => item && <MenuItem key={item.name} value={item || ''}>{item || ''}</MenuItem>)}
-        </Select>
+        <BannedListTitleContainer>
+          {page.locations?.length > 0 && <Typography variant={'h4'} sx={{marginRight: '20px'}}>Banned Locations</Typography>}
+          <div style={{display: 'flex', flexDirection: 'column'}}>
+            <InputLabel id={'state-label'}>Select State</InputLabel>
+              <Select
+                labelId={'state-label'}
+                onChange={handleStateChange}
+                value={stateFilter}
+                label={'Select State'}
+              >
+                <MenuItem value={'All'}>All</MenuItem>
+                {locationArray?.map(item => item && <MenuItem key={item.name} value={item || ''}>{item || ''}</MenuItem>)}
+              </Select>
+          </div>
+        </BannedListTitleContainer>
         {stateFilter !== 'All' ? filteredList() : unfilteredList()
         }
       </BannedListContainer>

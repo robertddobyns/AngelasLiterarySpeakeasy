@@ -2,7 +2,7 @@ import React from 'react';
 import {styled, Box, Typography} from "@mui/material";
 
 const Root = styled('div')(({theme}) => ({
-	marginTop: '10px'
+	margin: '20px 0'
 }))
 
 const SchoolInfo = (props) => {
@@ -18,7 +18,7 @@ const SchoolInfo = (props) => {
 			<Typography>{city}, {state}</Typography>
 			<Typography>Year: {year}</Typography>
 			<Typography>Reasons: {reasons.map(item => <Typography>&emsp;{item}</Typography>)}</Typography>
-			<hr/>
+			<hr style={{width: '300px', height:'3px',borderWidth: '0',backgroundColor:'#570861'}}/>
 		</Root>
 	)
 }
