@@ -1,6 +1,7 @@
 import React from 'react';
 import {styled, Box, Typography} from "@mui/material";
 import config from '../../config.json';
+import {Link} from "react-router-dom";
 
 const Root = styled('div')(({theme}) => ({
 	backgroundColor: '#570861',
@@ -35,6 +36,11 @@ const InfoContainer = styled('div')(({theme}) => ({
 	color: 'white'
 }))
 
+const linkStyle = {
+	textDecoration: 'none',
+	color: 'yellow'
+}
+
 const Footer = () => {
 	
 	
@@ -47,12 +53,12 @@ const Footer = () => {
 			</FooterStatement>
 			<Typography sx={{color: 'yellow', textAlign: 'center'}}>Coming Soon</Typography>
 			<LinksContainer>
-				<Box>About Us</Box>
-				<Box>Contact Us</Box>
-				<Box>FAQs</Box>
-				<Box>Privacy Policy</Box>
-				<Box>References</Box>
-				<Box>Donations</Box>
+				<Box><Link to={'/about'} style={linkStyle}>About Us</Link></Box>
+				{/*<Box><Link to={'/contact'} style={linkStyle}>Contact Us</Link></Box>*/}
+				{/*<Box><Link to={'/faqs'} style={linkStyle}>FAQs</Link></Box>*/}
+				{/*<Box><Link to={'/privacypolicy'} style={linkStyle}>Privacy Policy</Link></Box>*/}
+				{/*<Box><Link to={'/references'} style={linkStyle}>References</Link></Box>*/}
+				{/*<Box><Link to={'/donations'} style={linkStyle}>Donations</Link></Box>*/}
 			</LinksContainer>
 			<InfoContainer>
 				Version: {config.VERSION} | Last Updated {config.PUBLISH_DATE}
