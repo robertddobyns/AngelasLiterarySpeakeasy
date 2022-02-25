@@ -4,7 +4,8 @@ import {styled, Typography} from '@mui/material';
 const Root = styled('div')(({theme}) => ({
 	maxWidth: '1000px',
 	margin: '0 auto',
-	minHeight: '55vh'
+	minHeight: '55vh',
+	padding: '0 10px'
 }));
 
 const Quote = styled('div')(({theme}) => ({

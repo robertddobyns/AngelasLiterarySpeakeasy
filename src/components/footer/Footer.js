@@ -51,10 +51,9 @@ const Footer = () => {
 				If you would like to help me out and you know the specifics of a banned book, please send an email to <a href={'mailto:literaryspeakeasy@gmail.com'} style={{color: 'lightyellow'}}>LiterarySpeakeasy@gmail.com</a> with
 				the location, reason, and book name. If I can verify it, I will add it to the list.
 			</FooterStatement>
-			<Typography sx={{color: 'yellow', textAlign: 'center'}}>Coming Soon</Typography>
 			<LinksContainer>
 				<Box><Link to={'/about'} style={linkStyle}>About Us</Link></Box>
-				{/*<Box><Link to={'/contact'} style={linkStyle}>Contact Us</Link></Box>*/}
+				<Box><Link to={'/contact'} style={linkStyle}>Contact Us</Link></Box>
 				{/*<Box><Link to={'/faqs'} style={linkStyle}>FAQs</Link></Box>*/}
 				{/*<Box><Link to={'/privacypolicy'} style={linkStyle}>Privacy Policy</Link></Box>*/}
 				{/*<Box><Link to={'/references'} style={linkStyle}>References</Link></Box>*/}

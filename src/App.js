@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path={'/page/:bookName'} element={<BookPage/>}/>
         <Route path={'/about'} element={<About/>}/>
-        {/*<Route path={'/contact'} element={<Contact/>}/>*/}
+        <Route path={'/contact'} element={<Contact/>}/>
         {/*<Route path={'/faqs'} element={<FAQs/>}/>*/}
         {/*<Route path={'/privacypolicy'} element={<PrivacyPolicy/>}/>*/}
         {/*<Route path={'/references'} element={<References/>}/>*/}
