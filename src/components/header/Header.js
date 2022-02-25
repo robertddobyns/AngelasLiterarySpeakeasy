@@ -44,7 +44,6 @@ const Header = () => {
       <SubtitleContainer>
         An ever growing list of books banned in schools and communities across the United States
       </SubtitleContainer>
-      <Typography variant={'subtitle2'} sx={{textAlign: 'center'}}>The checkboxes are only there for your use right now. I do not want any of your personal information so I do not save them.</Typography>
     </Root>
   )
   
