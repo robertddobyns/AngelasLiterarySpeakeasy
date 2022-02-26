@@ -1428,7 +1428,29 @@
     "url": "1984",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08T49SJZT&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "George Orwell",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Lake Travis Middle School",
+        "city": "Lake Travis",
+        "state": "TX",
+        "status": "Challenged, removed from Required Reading",
+        "reasons": [
+          "Not age appropriate"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Rigby High School",
+        "city": "Jefferson County",
+        "state": "ID",
+        "status": "Banned but reinstated after student protests",
+        "reasons": [
+          "Violent",
+          "Sexually explicit"
+        ],
+        "year": 2018
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0452262933/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0452262933&linkId=844e59abcfba64d5e639891ade6f652f",
     "bn": "https://www.barnesandnoble.com/w/1984-george-orwell/1100009100"
   },
@@ -1438,7 +1460,41 @@
     "url": "song-of-solomon",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B009O2IKF2&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Toni Morrison",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Highland Park Independent School District",
+        "city": "Highland Park",
+        "state": "TX",
+        "status": "Banned then reinstated after national attention",
+        "reasons": [
+          "Profanity",
+          "Sexual imagery",
+          "incestuous relationship"
+        ],
+        "year": 2015
+      },
+      {
+        "name":  "Franklin Central High School",
+        "city": "Indianapolis",
+        "state": "IN",
+        "status": "Ban failed",
+        "reasons": [
+          "Language",
+          "Sexual content"
+        ],
+        "year": 2011
+      },
+      {
+        "name":  "Shelby School District",
+        "city": "Shelby",
+        "state": "MI",
+        "status": "Banned but reinstated with written notification of content to parents",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2010
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0679445048/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0679445048&linkId=be3ba3b4c1e88258bf364659a26f98b1",
     "bn": "https://www.barnesandnoble.com/w/song-of-solomon-toni-morrison/1100265350"
   },
@@ -1448,7 +1504,9 @@
     "url": "the-call-of-the-wild",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1954839146&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Jack London",
-    "locations": [],
+    "locations": [
+
+    ],
     "amazon": "https://www.amazon.com/gp/product/1954839146/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1954839146&linkId=fc243444bd0664673a6220a7818ae039",
     "bn": "https://www.barnesandnoble.com/w/call-of-the-wild-jack-london/1116664291"
   },
@@ -1478,7 +1536,128 @@
     "url": "i-know-why-the-caged-bird-sings",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0375507892&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Maya Angelou",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Matanuska-Susitna Borough School District",
+        "city": "Palmer",
+        "state": "Alaska",
+        "status": "Banned then reinstated after several organizations sent letters",
+        "reasons": [
+          "Controversial",
+          "Sexual content",
+          "Anti-white messaging",
+          "Could generate an EEO Commission lawsuit"
+        ],
+        "year": 2021
+      },
+      {
+        "name":  "Lemont High School",
+        "city": "Lemont",
+        "state": "IL",
+        "status": "Challenged, under review",
+        "reasons": [
+          "objections from parents, unspecified"
+        ],
+        "year": 2017
+      },
+      {
+        "name":  "Ocean View School District middle schools",
+        "city": "Huntington Beach",
+        "state": "CA",
+        "status": "Restricted to students with parents permission",
+        "reasons": [
+          "Inappropriate for children"
+        ],
+        "year": 2010
+      },
+      {
+        "name":  "Newman-Crows Landing School District",
+        "city": "Newman",
+        "state": "CA",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Trustee questioned the qualifications of staff to teach a novel depicting African American culture"
+        ],
+        "year": 2010
+      },
+      {
+        "name":  "Manheim Township School District",
+        "city": "Manheim Township",
+        "state": "PA",
+        "status": "Ban failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2008
+      },
+      {
+        "name":  "Coeur d'Alene School District",
+        "city": "Coeur d'Alene",
+        "state": "IA",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Should require parents' permission to read"
+        ],
+        "year": 2008
+      },
+      {
+        "name":  "Fond du Lac High School",
+        "city": "Fond du Lac",
+        "state": "WI",
+        "status": "Ban failed but parent approval required",
+        "reasons": [
+          "Rape resulting in pregnancy"
+        ],
+        "year": 2007
+      },
+      {
+        "name":  "Annapolis High School",
+        "city": "Annapolis",
+        "state": "MD",
+        "status": "Removed from Required Reading list",
+        "reasons": [
+          "Rape scene",
+          "Mature content"
+        ],
+        "year": 2006
+      },
+      {
+        "name":  "Hamilton High School",
+        "city": "Hamilton",
+        "state": "MT",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Teen sexual exploration",
+          "Rape",
+          "Homosexuality"
+        ],
+        "year": 2003
+      },
+      {
+        "name":  "Fairfax School District",
+        "city": "Fairfax",
+        "state": "VA",
+        "status": "Challenged, unknown by Parents Against Bad Books in Schools",
+        "reasons": [
+          "Profanity",
+          "Descriptions of Drug Abuse",
+          "Sexually explicit conduct",
+          "Torture"
+        ],
+        "year": 2003
+      },
+      {
+        "name":  "Poolesville High school",
+        "city": "Poolesville",
+        "state": "MD",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Sexual Content",
+          "Language"
+        ],
+        "year": 2001
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0375507892/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0375507892&linkId=260cc47582818b5e28a707e1cbe199bc",
     "bn": "https://www.barnesandnoble.com/w/i-know-why-the-caged-bird-sings-maya-angelou/1100392955"
   },
@@ -1490,5 +1669,169 @@
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0394747232&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Art Spiegelman",
     "amazon": "https://www.amazon.com/gp/product/0679748407/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0679748407&linkId=2aa0a29ce1558d110d87909431637ea8"
+  },
+  {
+    "id": 25,
+    "name": "The Things They Carried",
+    "url": "the-things-they-carried",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0618706410&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Tim O'Brien",
+    "locations": [
+      {
+        "name":  "Matanuska-Susitna Borough School District",
+        "city": "Palmer",
+        "state": "AK",
+        "status": "Banned then reinstated after letters were written by various groups",
+        "reasons": [
+          "Sexual content",
+          "Controversy",
+          "Anty-white messaging",
+          "Could generate an EEO Commission lawsuit"
+        ],
+        "year": 2021
+      },
+      {
+        "name":  "Bingham High School",
+        "city": "Jordan",
+        "state": "UT",
+        "status": "Ban failed",
+        "reasons": [
+          "Language",
+          "Sexuality"
+        ],
+        "year": 2019
+      },
+      {
+        "name":  "Troup School District",
+        "city": "Troup",
+        "state": "TX",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Vulgar",
+          "Complete garbage trash",
+          "Filled with sexual content and profanity"
+        ],
+        "year": 2016
+      },
+      {
+        "name":  "Northwest Suburban HS District 214",
+        "city": "Arlington Heights",
+        "state": "IL",
+        "status": "Ban failed",
+        "reasons": [
+          "controversy based on excerpts a newly elected board member found on the internet"
+        ],
+        "year": 2007
+      },
+      {
+        "name":  "George County School District",
+        "city": "George County",
+        "state": "MS",
+        "status": "Banned",
+        "reasons": [
+          "Profanity"
+        ],
+        "year": 2003
+      },
+      {
+        "name":  "Pennridge School District",
+        "city": "Pennridge",
+        "state": "PA",
+        "status": "Ban failed",
+        "reasons": [
+          "Profanity"
+        ],
+        "year": 2001
+      }
+    ],
+    "amazon": "https://www.amazon.com/gp/product/0618706410/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0618706410&linkCode=as2&tag=speakeasy0504-20&linkId=59863458a4281f7e01ce647e3076ad5c",
+    "bn": ""
+  },
+  {
+    "id": 26,
+    "name": "Catch-22",
+    "url": "catch-22",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1451626657&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Joseph Heller",
+    "locations": [
+      {
+        "name":  "Matanuska-Susitna Borough School District",
+        "city": "Palmer",
+        "state": "AK",
+        "status": "Banned but reinstated after letters from various organizations",
+        "reasons": [
+          "Sexual Content",
+          "Could generate an EEO Commission lawsuit"
+        ],
+        "year": 2021
+      }
+    ],
+    "amazon": "https://www.amazon.com/gp/product/1451626657/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1451626657&linkCode=as2&tag=speakeasy0504-20&linkId=ea2fcdf74db3c2a76ce2257e6be7a2f8",
+    "bn": ""
+  },
+  {
+    "id": 27,
+    "name": "Fahrenheit 451",
+    "url": "fahrenheit-451",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0006546064&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Ray Bradbury",
+    "locations": [
+      {
+        "name":  "Santa Rosa School District",
+        "city": "Santa Rosa",
+        "state": "Florida",
+        "status": "Ban failed",
+        "reasons": [
+          "Profanity",
+          "Using God's name in vain",
+          "Sex",
+          "Drugs",
+          "Suicide",
+          "Murder",
+          "Abortion"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Conroe Independent School District",
+        "city": "Conroe",
+        "state": "TX",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Discussion of being drunk",
+          "Smoking cigarettes",
+          "Violence",
+          "Dirty talk",
+          "Bible references",
+          "Using God's name in vain",
+          "Against religious beliefs"
+        ],
+        "year": 2007
+      }
+    ],
+    "amazon": "https://www.amazon.com/gp/product/0006546064/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0006546064&linkCode=as2&tag=speakeasy0504-20&linkId=b2e3084d3cfc0d21a9e4bcfc19a5acaf",
+    "bn": ""
+  },
+  {
+    "id": 28,
+    "name": "The Great Gatsby",
+    "url": "the-great-gatsby",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B09QP698F3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "F. Scott Fitzgerald",
+    "locations": [
+      {
+        "name":  "Matanuska-Susitna Borough School District",
+        "city": "Palmer",
+        "state": "AK",
+        "status": "Banned but reinstated after were received letters from various groups",
+        "reasons": [
+          "Sexual content",
+          "Could generate an EEO Commission lawsuit"
+        ],
+        "year": 2021
+      }
+    ],
+    "amazon": "https://www.amazon.com/gp/product/B09QP698F3/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B09QP698F3&linkCode=as2&tag=speakeasy0504-20&linkId=7bd246e10200d764c44621ed58798b29",
+    "bn": ""
   }
 ]
