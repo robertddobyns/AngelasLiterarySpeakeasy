@@ -22,7 +22,7 @@
         "name":  "Sauk Prairie High School",
         "city": "Prairie du Sac",
         "state": "WI",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "Profanity",
           "Violence",
@@ -34,7 +34,7 @@
         "name": "New London-Spicer School District",
         "city": "New London",
         "state": "MN",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "Gratuitous and unnecessary profanity",
           "References to sexual acts"
@@ -57,7 +57,7 @@
         "name": "Helena School District",
         "city": "Helena",
         "state": "MT",
-        "status": "Failed",
+        "status": "Ban Failed",
         "reasons": [
           "obscene, vulgar, and pornographic language"
         ],
@@ -67,7 +67,7 @@
         "name": "North Albany Middle School",
         "city": "North Albany",
         "state": "NY",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "language",
           "references to masturbation"
@@ -93,7 +93,7 @@
         "name": "Conejo Valley Unified School District",
         "city": "Conejo Valley",
         "state": "CA",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "Sexuality",
           "Profanity"
@@ -104,7 +104,7 @@
         "name": "Democracy Prep",
         "city": "Democracy",
         "state": "NV",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "language",
           "sexual references"
@@ -115,7 +115,7 @@
         "name": "Alton High School",
         "city": "Alton",
         "state": "IL",
-        "status": "banned briefly then failed after review",
+        "status": "Banned briefly then failed after review",
         "reasons": [
           "unspecified complaint from a parent"
         ],
@@ -125,7 +125,7 @@
         "name": "Brunswick County Schools",
         "city": "Brunswick",
         "state": "NC",
-        "status": "failed",
+        "status": "Ban failed",
         "reasons": [
           "Bestiality",
           "Pornographic"
@@ -202,7 +202,7 @@
         "name": "Sweet Home Junior High School",
         "city": "Sweet Home",
         "state": "OR",
-        "status": "Failed but alternative lessons available",
+        "status": "Ban failed but alternative lessons available",
         "reasons": [
           "Objectification of women and young girls"
         ],
@@ -233,7 +233,7 @@
         "name": "Richland School District",
         "city": "Richland",
         "state": "WA",
-        "status": "Banned then Failed",
+        "status": "Banned which was later overturned",
         "reasons": [
           "Coarse themes",
           "Language"
@@ -276,7 +276,7 @@
         "name": "Antioch High School",
         "city": "Antioch",
         "state": "IL",
-        "status": "Failed but reviewed each March",
+        "status": "Ban failed but reviewed each March",
         "reasons": [
           "Vulgar Language",
           "Racist"
@@ -319,7 +319,7 @@
         "name": "Seminole County School District",
         "city": "Seminole County",
         "state": "FL",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Inappropriate for a 13-year-old boy"
         ],
@@ -340,7 +340,7 @@
         "name": "unknown",
         "city": "Atlanta Suburb",
         "state": "GA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Porn",
           "Gore",
@@ -352,7 +352,7 @@
         "name": "Marietta High School",
         "city": "Marietta",
         "state": "OH",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Vulgarity",
           "Sexual Overtones"
@@ -363,7 +363,7 @@
         "name": "Wyomissing High School",
         "city": "Wyomissing",
         "state": "PA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Vulgar language",
           "Graphic depictions of sex"
@@ -444,7 +444,7 @@
         "name": "Conejo Valley Unified School District",
         "city": "Conejo Valley",
         "state": "CA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Profanity",
           "Sexuality"
@@ -455,7 +455,7 @@
         "name": "Martin County School District",
         "city": "Martin County",
         "state": "FL",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Inappropriate language"
         ],
@@ -475,7 +475,7 @@
         "name": "Noble High School",
         "city": "North Berwick",
         "state": "ME",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Unknown"
         ],
@@ -495,7 +495,7 @@
         "name": "Unknown",
         "city": "Unknown",
         "state": "GA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Profanity"
         ],
@@ -536,7 +536,7 @@
         "name": "Unknown",
         "city": "Coeur d'Alene",
         "state": "ID",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Too negative"
         ],
@@ -546,7 +546,7 @@
         "name": "Brauberd School District",
         "city": "Brauberd",
         "state": "MN",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Jesus Christ as a swear word",
           "Racist epithets",
@@ -559,7 +559,7 @@
         "name": "Newton High School",
         "city": "Newton",
         "state": "IA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Profanity",
           "Negative portrayal of Jesus Christ",
@@ -571,7 +571,7 @@
         "name": "Newton High School",
         "city": "Newton",
         "state": "IA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Profanity",
           "Negative portrayal of Jesus Christ",
@@ -713,7 +713,7 @@
         "name": "Manchester School District",
         "city": "Manchester",
         "state": "CN",
-        "status": "Failed but teachers must attend a seminar on race before teaching about the book",
+        "status": "Ban failed but teachers must attend a seminar on race before teaching about the book",
         "reasons": [
           "Racial Epithets"
         ],
@@ -723,7 +723,7 @@
         "name": "Lakeville High School",
         "city": "Lakeville",
         "state": "MN",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Unknown"
         ],
@@ -733,7 +733,7 @@
         "name": "St. Louis Park High School",
         "city": "Minneapolis",
         "state": "MN",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Unknown"
         ],
@@ -824,7 +824,7 @@
         "name": "Enid School District",
         "city": "Enid",
         "state": "OK",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Offensive language"
         ],
@@ -866,7 +866,7 @@
         "name": "Conejo Valley Unified School District",
         "city": "Conejo Valley",
         "state": "CA",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Sexuality",
           "Profanity"
@@ -877,7 +877,7 @@
         "name": "Fishers High School",
         "city": "Fishers",
         "state": "IN",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Same-Sex Gang Rape",
           "Depiction of Distrust in Adults"
@@ -918,7 +918,7 @@
         "name": "Waukesha High School",
         "city": "Waukesha",
         "state": "WI",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Desensitizes students to violence"
         ],
@@ -939,7 +939,7 @@
         "name": "Valley High School",
         "city": "Jonesboro",
         "state": "AR",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Male-on-male rape",
           "Sexual innuendo",
@@ -976,7 +976,7 @@
         "name": "Jackson County School District",
         "city": "Marianna",
         "state": "FL",
-        "status": "Failed",
+        "status": "Ban failed",
         "reasons": [
           "Unknown"
         ],
@@ -1025,7 +1025,125 @@
     "url": "to-kill-a-mockingbird",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0060935464&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Harper Lee",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Burbank Unified School District",
+        "city": "Burbank",
+        "state": "CA",
+        "status": "Restricted in classroom. Banned from library",
+        "reasons": [
+          "Racial slurs",
+          "A 'white savior' character",
+          "Perception of the Black experience",
+          "Racial Epitets"
+        ],
+        "year": 2021
+      },
+      {
+        "name":  "Mustang High School",
+        "city": "Mustang",
+        "state": "OK",
+        "status": "Teacher suspended for saying the N-Word",
+        "reasons": [
+          "Racially charged language"
+        ],
+        "year": 2020
+      },
+      {
+        "name":  "Monona Grove High School",
+        "city": "Monona Grove",
+        "state": "WI",
+        "status": "Ban failed",
+        "reasons": [
+          "Use of the N-Word",
+          "Atticus Finch as a 'white savior'",
+          "Absense of other works representing PoC",
+          "Deep racial divide in the school"
+        ],
+        "year": 2019
+      },
+      {
+        "name":  "Duluth School District",
+        "city": "Duluth",
+        "state": "MN",
+        "status": "Banned",
+        "reasons": [
+          "To protect the diginity of our students"
+        ],
+        "year": 2019
+      },
+      {
+        "name":  "Biloxi Public Schools",
+        "city": "Biloxi",
+        "state": "MS",
+        "status": "Banned then restricted after national outcry",
+        "reasons": [
+          "N-Word"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Hamilton High School",
+        "city": "Hamilton",
+        "state": "AZ",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "School assignment addressing the use of the N-Word "
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Accomack County Public Schools",
+        "city": "Accomack County",
+        "state": "VA",
+        "status": "Banned then reinstated",
+        "reasons": [
+          "Racial Slurs"
+        ],
+        "year": 2017
+      },
+      {
+        "name":  "Cherry Hill Board of Education",
+        "city": "Cherry Hill",
+        "state": "NJ",
+        "status": "Ban failed",
+        "reasons": [
+          "Depiction of how Black people were treated by members of a racist white community",
+          "Would upset black children reading it"
+        ],
+        "year": 2009
+      },
+      {
+        "name":  "Brentwood Middle School",
+        "city": "Brentwood",
+        "state": "TN",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Use of racial slurs promotes 'racial hatred, racial division, racial separation, and promotes white supremacy.'"
+        ],
+        "year": 2006
+      },
+      {
+        "name":  "Stanford Middle School",
+        "city": "Durham",
+        "state": "NC",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Use of the N-Word"
+        ],
+        "year": 2005
+      },
+      {
+        "name":  "Normal Community High School",
+        "city": "Normal",
+        "state": "IL",
+        "status": "Ban failed",
+        "reasons": [
+          "Degrading to African Americans"
+        ],
+        "year": 2005
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0060935464/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0060935464&linkId=0eb1ccc5f33afc2b214f96d0a9c2e416",
     "bn": "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011"
   },
@@ -1035,7 +1153,18 @@
     "url": "the-giver",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1328471225&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Lois Lowry",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Macdonald Public Library",
+        "city": "Macdonald",
+        "state": "MI",
+        "status": "Banned then reclassified from young adult to adult",
+        "reasons": [
+          "infant euthanasia"
+        ],
+        "year": 2020
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/1328471225/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1328471225&linkId=357b46c5f47730f334c8a39a7b58bfc0",
     "bn": "https://www.barnesandnoble.com/w/giver-lois-lowry/1100295882"
   },
@@ -1045,7 +1174,32 @@
     "url": "the-outsiders",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=014240733X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "S. E. Hinton",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Williamsburg Middle School",
+        "city": "Williamsburg",
+        "state": "IA",
+        "status": "Ban failed",
+        "reasons": [
+          "Conflict",
+          "Crime",
+          "Death of a character",
+          "Gang fighting"
+        ],
+        "year": 2017
+      },
+      {
+        "name":  "Eleanor's George Washington Middle School",
+        "city": "Eleanor",
+        "state": "WV",
+        "status": "Challenged, unknown",
+        "reasons": [
+          "Gangs",
+          "Gang fights"
+        ],
+        "year": 2001
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/014240733X/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=014240733X&linkId=206146f7f6ca00cca545216b80718699",
     "bn": "https://www.barnesandnoble.com/w/outsiders-se-hinton/1100458329"
   },
@@ -1055,7 +1209,83 @@
     "url": "thirteen-reasons-why",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1595141715&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Jay Asher",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Westwood Regional Schools",
+        "city": "Westwood",
+        "state": "NJ",
+        "status": "Ban failed",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2004
+      },
+      {
+        "name":  "Mesa County School District",
+        "city": "Mesa County",
+        "state": "CO",
+        "status": "Banned then reinstated",
+        "reasons": [
+          "Recent teenage suicides in the area"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Red Deer Catholic School Division",
+        "city": "Unknown",
+        "state": "Canada",
+        "status": "Banned",
+        "reasons": [
+          "Glamorized teen suicide"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Stone Lakes Elementary School",
+        "city": "Orlando",
+        "state": "FL",
+        "status": "Banned",
+        "reasons": [
+          "Depicting suicide in a somewhat graphic nature",
+          "Profanity",
+          "Alcohol",
+          "Sexual material"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Fort Wayne Community Schools",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "status": "Ban failed",
+        "reasons": [
+          "Tone of the main characters expressions",
+          "Lack of mental health care",
+          "Author's lack of moral lesson for those suffering from depression"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Anderson County Middle School",
+        "city": "Anderson County",
+        "state": "KY",
+        "status": "Banned",
+        "reasons": [
+          "Unknown"
+        ],
+        "year": 2018
+      },
+      {
+        "name":  "Lemont High School District 210",
+        "city": "Lemont",
+        "state": "IL",
+        "status": "Challenged, under review",
+        "reasons": [
+          "Pornographic"
+        ],
+        "year": 2017
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/1595141715/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1595141715&linkId=c4370408098bdd856195fde7ddef95fd",
     "bn": "https://www.barnesandnoble.com/w/thirteen-reasons-why-jay-asher/1008421039"
   },
@@ -1065,7 +1295,19 @@
     "url": "harry-potter-series",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0545162076&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "J. K. Rowling",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "St. Edward Catholic School",
+        "city": "Nashville",
+        "state": "TN",
+        "status": "After consulting exorcists, Banned",
+        "reasons": [
+          "Presenting magic as good and evil",
+          "Real spells and curses that when ready by a human pose a risk of conjuring evil"
+        ],
+        "year": 2020
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0545162076/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0545162076&linkId=6200892cd6befce5d5e6ab22ef5fe143",
     "bn": "https://www.barnesandnoble.com/w/harry-potter-and-the-sorcerers-stone-rowling-j-k/1133614639"
   },
@@ -1075,6 +1317,40 @@
     "url": "the-hate-u-give",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0062498533&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Nikki Giovanni",
+    "locations": [
+      {
+        "name":  "Springfield Middle School",
+        "city": "Springfield",
+        "state": "MO",
+        "status": "Banned",
+        "reasons": [
+          "Lack of specificity in permission slips",
+          "Language",
+          "Sexual situations"
+        ],
+        "year": 2019
+      },
+      {
+        "name":  "Wando High School",
+        "city": "Mount Pleasant",
+        "state": "SC",
+        "status": "Ban failed after the FOP attempted to ban it",
+        "reasons": [
+          "Indoctrination of distrust of police and we have to put a stop to that"
+        ],
+        "year": 2019
+      },
+      {
+        "name":  "Katy Independent School District",
+        "city": "Katy",
+        "state": "TX",
+        "status": "Banned by superintendent, restricted with parents consent",
+        "reasons": [
+          "Pervasively vulgar"
+        ],
+        "year": 2018
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0062498533/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062498533&linkId=b83732862677cad07d6ec390f4b2b0e4",
     "bn": "https://www.barnesandnoble.com/w/the-hate-u-give-a-c-thomas/1124651146"
   },
@@ -1094,7 +1370,45 @@
     "url": "the-color-purple",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0143135694&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "Alice Walker",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Brunswick County High School",
+        "city": "Brunswick County",
+        "state": "NC",
+        "status": "Ban failed",
+        "reasons": [
+          "Language",
+          "Sexuality",
+          "Obscenity"
+        ],
+        "year": 2014
+      },
+      {
+        "name":  "Burke County Schools",
+        "city": "Morgantown",
+        "state": "NC",
+        "status": "Challenged",
+        "reasons": [
+          "Homosexuality",
+          "Rape",
+          "Incest"
+        ],
+        "year": 2009
+      },
+      {
+        "name":  "Fairfax School District",
+        "city": "Fairfax",
+        "state": "VA",
+        "status": "Challenged, unknown by Parents Against Bad Books in Schools",
+        "reasons": [
+          "Profanity",
+          "Descriptions of Drug Abuse",
+          "Sexually explicit conduct",
+          "Torture"
+        ],
+        "year": 2003
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0151191549/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0151191549&linkId=7ebd5123f07b4a330002e1882790ff83",
     "bn": "https://www.barnesandnoble.com/w/color-purple-alice-walker/1100608832"
   },
