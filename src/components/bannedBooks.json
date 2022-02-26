@@ -4,10 +4,11 @@
     "name": "A Wrinkle in Time",
     "url": "a-wrinkle-in-time",
     "author": "Madeleine L'Engle",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1250004675&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
 
     ],
-    "amazon": "https://www.amazon.com/Wrinkle-Time-Quintet-Book-ebook/dp/B004OA64H0/",
+    "amazon": "https://www.amazon.com/gp/product/1250004675/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1250004675&linkId=88188b8a555d92c839b1a1c7e1d3a0af",
     "bn": "https://www.barnesandnoble.com/w/wrinkle-in-time-madeleine-lengle/1100128524"
   },
   {
@@ -15,6 +16,7 @@
     "name": "The Absolutely True Diary of a Part-Time Indian",
     "url": "the-absolutely-true-diary-of-a-part-time-indian",
     "author": "Sherman Alexie",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316013692&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name":  "Sauk Prairie High School",
@@ -293,7 +295,7 @@
       }
 
     ],
-    "amazon": "https://www.amazon.com/Absolutely-True-Diary-Part-Time-Indian/dp/0316013692/",
+    "amazon": "https://www.amazon.com/gp/product/0316013692/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0316013692&linkId=5279fbb4864f28831071408a651c7bf6",
     "bn": "https://www.barnesandnoble.com/w/absolutely-true-diary-of-a-part-time-indian-sherman-alexie/1100163889"
   },
   {
@@ -301,6 +303,7 @@
     "name": "Roll of Thunder, Hear My Cry",
     "url": "roll-of-thunder-hear-my-cry",
     "author": "Mildred D. Taylor",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0142401129&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "Burbank Unified School District",
@@ -323,7 +326,7 @@
         "year": 2004
       }
     ],
-    "amazon": "https://www.amazon.com/Roll-Thunder-Hear-Cry-Instructional/dp/1425889875/",
+    "amazon": "https://www.amazon.com/gp/product/0142401129/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0142401129&linkId=7211e01c9c8ad164d161d310b759bdbc",
     "bn": "https://www.barnesandnoble.com/w/roll-of-thunder-hear-my-cry-mildred-d-taylor/1100734256"
   },
   {
@@ -331,6 +334,7 @@
     "name": "The Handmaid's Tale",
     "url": "the-handmaids-tale",
     "author": "Margaret Atwood",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1328879941&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "unknown",
@@ -426,7 +430,7 @@
         "year": 2001
       }
     ],
-    "amazon": "https://www.amazon.com/Handmaids-Tale-Margaret-Atwood-ebook/dp/B003JFJHTS/",
+    "amazon": "https://www.amazon.com/gp/product/1328879941/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1328879941&linkId=a948cfef493ac14dcd935fd59e7efb22",
     "bn": "https://www.barnesandnoble.com/w/handmaids-tale-margaret-atwood/1100295471"
   },
   {
@@ -434,6 +438,7 @@
     "name": "The Catcher in the Rye",
     "url": "the-catcher-in-the-rye",
     "author": "J. D. Salinger",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316769177&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "Conejo Valley Unified School District",
@@ -497,7 +502,7 @@
         "year": 2002
       }
     ],
-    "amazon": "https://www.amazon.com/Catcher-Rye-J-D-Salinger/dp/0316769177/",
+    "amazon": "https://www.amazon.com/gp/product/0316769177/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0316769177&linkId=25c47804926ef9751468da52566b54fa",
     "bn": "https://www.barnesandnoble.com/w/catcher-in-the-rye-j-d-salinger/1100192775"
   },
   {
@@ -505,6 +510,7 @@
     "name": "Of Mice and Men",
     "url": "of-mice-and-men",
     "author": "John Steinbeck",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0140177396&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "Henry Sibley High School",
@@ -633,7 +639,7 @@
         "year": 2003
       }
     ],
-    "amazon": "https://www.amazon.com/Mice-Men-John-Steinbeck/dp/0140177396/",
+    "amazon": "https://www.amazon.com/gp/product/0140177396/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0140177396&linkId=5b57498fb2d3caaecb2ed2592754ee36",
     "bn": "https://www.barnesandnoble.com/w/of-mice-and-men-john-steinbeck/1100154558"
   },
   {
@@ -641,6 +647,7 @@
     "name": "The Adventures of Huckleberry Finn",
     "url": "the-adventures-of-huckleberry-finn",
     "author": "Mark Twain",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B09L3R797N&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "Burbank Unified School District",
@@ -834,7 +841,7 @@
         "year": 2001
       }
     ],
-    "amazon": "https://www.amazon.com/Adventures-Huckleberry-Finn-First-published/dp/B093MVVSSD/",
+    "amazon": "https://www.amazon.com/gp/product/1953649807/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1953649807&linkId=755505d20124ec12405b8c9cab37dafe",
     "bn": "https://www.barnesandnoble.com/w/barnes-noble-leatherbound-classics-the-adventures-of-huckleberry-finn-mark-twain/1106658822"
   },
   {
@@ -842,6 +849,7 @@
     "name": "The Kite Runner",
     "url": "the-kite-runner",
     "author": "Khaled Hosseini",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1573222453&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
       {
         "name": "Park City School District",
@@ -1008,116 +1016,165 @@
         "year": 2008
       }
     ],
-    "amazon": "https://www.amazon.com/Kite-Runner-Khaled-Hosseini/dp/159463193X/",
+    "amazon": "https://www.amazon.com/gp/product/1573222453/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1573222453&linkId=db9737882b7c28a242976b7bbf44d670",
     "bn": "https://www.barnesandnoble.com/w/kite-runner-khaled-hosseini/1100224666"
   },
   {
     "id": 9,
     "name": "To Kill a Mockingbird",
     "url": "to-kill-a-mockingbird",
-    "amazon": "https://www.amazon.com/To-Kill-Mockingbird-Harper-Lee-audiobook/dp/B00K1HPPXO/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0060935464&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Harper Lee",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0060935464/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0060935464&linkId=0eb1ccc5f33afc2b214f96d0a9c2e416",
     "bn": "https://www.barnesandnoble.com/w/to-kill-a-mockingbird-harper-lee/1100151011"
   },
   {
     "id": 10,
     "name": "The Giver",
     "url": "the-giver",
-    "amazon": "https://www.amazon.com/The-Giver-Lois-Lowry-audiobook/dp/B0000YSH4W/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1328471225&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Lois Lowry",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/1328471225/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1328471225&linkId=357b46c5f47730f334c8a39a7b58bfc0",
     "bn": "https://www.barnesandnoble.com/w/giver-lois-lowry/1100295882"
   },
   {
     "id": 11,
     "name": "The Outsiders",
     "url": "the-outsiders",
-    "amazon": "https://www.amazon.com/The-Outsiders-S-E-Hinton-audiobook/dp/B0002QU5CK/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=014240733X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "S. E. Hinton",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/014240733X/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=014240733X&linkId=206146f7f6ca00cca545216b80718699",
     "bn": "https://www.barnesandnoble.com/w/outsiders-se-hinton/1100458329"
   },
   {
     "id": 12,
     "name": "Thirteen Reasons Why",
     "url": "thirteen-reasons-why",
-    "amazon": "https://www.amazon.com/Thirteen-Reasons-Why-Jay-Asher/dp/159514188X/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1595141715&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Jay Asher",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/1595141715/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1595141715&linkId=c4370408098bdd856195fde7ddef95fd",
     "bn": "https://www.barnesandnoble.com/w/thirteen-reasons-why-jay-asher/1008421039"
   },
   {
     "id": 13,
     "name": "Harry Potter series",
     "url": "harry-potter-series",
-    "amazon": "https://www.amazon.com/Harry-Potter-Paperback-Box-Books/dp/0545162076/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0545162076&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "J. K. Rowling",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0545162076/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0545162076&linkId=6200892cd6befce5d5e6ab22ef5fe143",
     "bn": "https://www.barnesandnoble.com/w/harry-potter-and-the-sorcerers-stone-rowling-j-k/1133614639"
   },
   {
     "id": 14,
-    "name": "The Hate You Give",
-    "url": "the-hate-you-give",
-    "amazon": "https://www.amazon.com/Hate-U-Give-Angie-Thomas/dp/0062498533/",
+    "name": "The Hate U Give",
+    "url": "the-hate-u-give",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0062498533&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Nikki Giovanni",
+    "amazon": "https://www.amazon.com/gp/product/0062498533/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0062498533&linkId=b83732862677cad07d6ec390f4b2b0e4",
     "bn": "https://www.barnesandnoble.com/w/the-hate-u-give-a-c-thomas/1124651146"
   },
   {
     "id": 15,
     "name": "The Grapes of Wrath",
     "url": "the-grapes-of-wrath",
-    "amazon": "https://www.amazon.com/Grapes-Wrath-John-Steinbeck-ebook/dp/B001BKTEZA/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001BKTEZA&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "John Steinbeck",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0143039431/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0143039431&linkId=15e1dc6e59b592c95292571fab5236b7",
     "bn": "https://www.barnesandnoble.com/w/grapes-of-wrath-john-steinbeck/1002084358"
   },
   {
     "id": 16,
     "name": "The Color Purple",
     "url": "the-color-purple",
-    "amazon": "https://www.amazon.com/Color-Purple-Alice-Walker-ebook/dp/B005NY4QGM/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0143135694&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Alice Walker",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0151191549/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0151191549&linkId=7ebd5123f07b4a330002e1882790ff83",
     "bn": "https://www.barnesandnoble.com/w/color-purple-alice-walker/1100608832"
   },
   {
     "id": 17,
     "name": "The Lord of the Flies",
     "url": "the-lord-of-the-flies",
-    "amazon": "https://www.amazon.com/Lord-Flies-William-Golding/dp/0399501487/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0399501487&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "William Golding",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0399501487/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0399501487&linkId=f6454ac6500e6ff19a35ee1e83618d42",
     "bn": "https://www.barnesandnoble.com/w/lord-of-the-flies-william-golding/1100154846"
   },
   {
     "id": 18,
     "name": "1984",
     "url": "1984",
-    "amazon": "https://www.amazon.com/1984-Signet-Classics-George-Orwell/dp/0451524934/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08T49SJZT&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "George Orwell",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0452262933/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0452262933&linkId=844e59abcfba64d5e639891ade6f652f",
     "bn": "https://www.barnesandnoble.com/w/1984-george-orwell/1100009100"
   },
   {
     "id": 19,
     "name": "Song of Solomon",
     "url": "song-of-solomon",
-    "amazon": "https://www.amazon.com/Song-Solomon-Toni-Morrison/dp/140003342X/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B009O2IKF2&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Toni Morrison",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0679445048/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0679445048&linkId=be3ba3b4c1e88258bf364659a26f98b1",
     "bn": "https://www.barnesandnoble.com/w/song-of-solomon-toni-morrison/1100265350"
   },
   {
     "id": 20,
     "name": "The Call of the Wild",
     "url": "the-call-of-the-wild",
-    "amazon": "https://www.amazon.com/Call-Wild-Readers-Library-Classics/dp/1954839146/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1954839146&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Jack London",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/1954839146/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1954839146&linkId=fc243444bd0664673a6220a7818ae039",
     "bn": "https://www.barnesandnoble.com/w/call-of-the-wild-jack-london/1116664291"
   },
   {
     "id": 21,
     "name": "The Lord of the Rings",
     "url": "the-lord-of-the-rings",
-    "amazon": "https://www.amazon.com/Lord-Rings-One-J-R-R-Tolkien-ebook/dp/B007978OY6/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0345538374&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "J. R. R. Tolkien",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0345538374/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0345538374&linkId=c63aabf831dcb020170219c60031b9cb",
     "bn": "https://www.barnesandnoble.com/w/the-lord-of-the-rings-illustrated-edition-j-r-r-tolkien/1139132593"
   },
   {
     "id": 22,
     "name": "The Bridge to Terabithia",
     "url": "the-bridge-to-terabithia",
-    "amazon": "https://www.amazon.com/Bridge-Terabithia-Katherine-Paterson/dp/0064401847/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0064401847&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Katherine Paterson",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/B009S80474/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B009S80474&linkId=0e2c0308705767c947a4fdd298be5b54",
     "bn": "https://www.barnesandnoble.com/w/bridge-to-terabithia-40th-anniversary-edition-katherine-paterson/1126998281"
   },
   {
     "id": 23,
     "name": "I Know Why the Caged Bird Sings",
     "url": "i-know-why-the-caged-bird-sings",
-    "amazon": "https://www.amazon.com/I-Know-Why-Caged-Bird-Sings-audiobook/dp/B004HYHTN6/",
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0375507892&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Maya Angelou",
+    "locations": [],
+    "amazon": "https://www.amazon.com/gp/product/0375507892/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0375507892&linkId=260cc47582818b5e28a707e1cbe199bc",
     "bn": "https://www.barnesandnoble.com/w/i-know-why-the-caged-bird-sings-maya-angelou/1100392955"
   },
   {
     "id": 24,
-    "name": "Maus"
+    "name": "Maus",
+    "url": "maus",
+    "locations": [],
+    "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0394747232&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
+    "author": "Art Spiegelman",
+    "amazon": "https://www.amazon.com/gp/product/0679748407/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0679748407&linkId=2aa0a29ce1558d110d87909431637ea8"
   }
 ]

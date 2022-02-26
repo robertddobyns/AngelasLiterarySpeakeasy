@@ -30,10 +30,11 @@ const Donations = () => {
 				all purchases to prove that 100% of the money is going to it's intended purpose.
 			</p>
 			<Typography variant={'h4'}>Donations to Support Me</Typography>
-			<p>Websites take time and money. If it happens that you want to support me, that's cool. I would rather
-			the money go to the donation spot above but if people are interested in supporting me doing this, I'll
-			use the money to keep the website running, buy Angela a coffee, and maybe a fancy dinner. I have no idea.
-			Seriously, just donate to the option above if you want to donate.</p>
+			<p>Websites take time and money. If it happens that you want to support me, that's cool. I signed up for the
+				Amazon and Barnes & Noble affiliate plan to make a couple coins with every book sold. I would rather the money
+				go to the donation spot above but if people are interested in supporting me doing this, I'll use the money to
+				keep the website running, buy Angela a coffee, and maybe a fancy dinner. I have no idea. Seriously, just donate
+				to the option above if you want to donate.</p>
 		</Root>
 	)
 	

@@ -40,6 +40,7 @@ const Home = () => {
         <TableHead>
           <TableRow>
             <TableCell>Purchased</TableCell>
+            <TableCell></TableCell>
             <TableCell>Book</TableCell>
             <TableCell align={'center'}>Amazon</TableCell>
             <TableCell align={'center'}>Barnes & Noble</TableCell>
@@ -50,6 +51,7 @@ const Home = () => {
             bookInfo.map(b => (
               <TableRow key={b.id}>
                 {savedBooks.includes(b.id.toString())?<TableCell><Checkbox onChange={ () => handleSave(b.id)} checked /></TableCell>: <TableCell><Checkbox onChange={ () => handleSave(b.id)} /></TableCell>}
+                <img src={b.imageUrl}/>
                 <TableCell><Link to={'/page/' + b.url}>{b.name}</Link></TableCell>
                 <TableCell align={'center'}><IconButton href={b.amazon} target={'_blank'}><FontAwesomeIcon icon={faAmazon} /></IconButton></TableCell>
                 <TableCell align={'center'}><IconButton href={b.bn} target={'_blank'}><FontAwesomeIcon icon={faBook} /></IconButton></TableCell>
