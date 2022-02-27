@@ -6,7 +6,47 @@
     "author": "Madeleine L'Engle",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1250004675&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "locations": [
-
+      {
+        "name":  "Polk City Elementary School",
+        "city": "Polk City",
+        "state": "FL",
+        "status": "Ban failed",
+        "reasons": [
+          "Opposes Christian beliefs",
+          "Teaches occult practices"
+        ],
+        "year": 1985,
+        "references": [
+          2
+        ]
+      },
+      {
+        "name":  "Tenth Street Elementary",
+        "city": "Anniston",
+        "state": "AL",
+        "status": "Ban failed",
+        "reasons": [
+          "Sends mixed signals to children about good and evil",
+          "Lists the name Jesus Christ with artists, philosphers, scientists, and religious leaders"
+        ],
+        "year": 1990,
+        "references": [
+          2
+        ]
+      },
+      {
+        "name":  "Newton School Board",
+        "city": "Newton",
+        "state": "NC",
+        "status": "Ban failed",
+        "reasons": [
+          "Undermining religious beliefs"
+        ],
+        "year": 1996,
+        "references": [
+          2
+        ]
+      }
     ],
     "amazon": "https://www.amazon.com/gp/product/1250004675/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=1250004675&linkId=88188b8a555d92c839b1a1c7e1d3a0af",
     "bn": "https://www.barnesandnoble.com/w/wrinkle-in-time-madeleine-lengle/1100128524"
@@ -1693,7 +1733,22 @@
     "url": "the-grapes-of-wrath",
     "imageUrl": "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B001BKTEZA&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=speakeasy0504-20",
     "author": "John Steinbeck",
-    "locations": [],
+    "locations": [
+      {
+        "name":  "Kern County",
+        "city": "Kern County",
+        "state": "CA",
+        "status": "Banned",
+        "reasons": [
+          "Libel and lie",
+          "Obscene to the extreme"
+        ],
+        "year": 1939,
+        "references": [
+          3
+        ]
+      }
+    ],
     "amazon": "https://www.amazon.com/gp/product/0143039431/ref=as_li_tl?ie=UTF8&tag=speakeasy0504-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0143039431&linkId=15e1dc6e59b592c95292571fab5236b7",
     "bn": "https://www.barnesandnoble.com/w/grapes-of-wrath-john-steinbeck/1002084358"
   },

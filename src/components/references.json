@@ -3,5 +3,15 @@
     "id": 1,
     "name": "Marshall University",
     "url": "https://www.marshall.edu"
+  },
+  {
+    "id": 2,
+    "name": "Carnegie Mellon University",
+    "url": "https://bannedbooks.library.cmu.edu"
+  },
+  {
+    "id": 3,
+    "name": "NPR",
+    "url": "https://www.npr.org"
   }
 ]
