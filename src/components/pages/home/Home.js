@@ -16,6 +16,7 @@ const Home = () => {
     <Root>
       {bookInfo.map(item =>
         <Book
+          id={item.id}
           imageUrl={item.imageUrl}
           url={item.url}
           name={item.name}

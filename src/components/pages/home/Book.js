@@ -43,7 +43,7 @@ const Book = (props) => {
 	}));
 	
 	return (
-		<Root>
+		<Root key={props.id}>
 			<img src={props.imageUrl} alt={props.name} style={{marginRight: '10px'}}/>
 			<InfoContainer>
 				<Title><Link to={'/page/' + props.url}>{props.name}</Link></Title>
