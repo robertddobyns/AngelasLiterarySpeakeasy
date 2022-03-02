@@ -14,6 +14,7 @@ import ProtectedRoutes from "./components/security/ProtectedRoute";
 import Test from './components/security/Test';
 import {UserContext} from "./components/security/UserContext";
 import AddBook from "./components/pages/addData/AddBook";
+import AddLocation from "./components/pages/addData/AddLocation";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -29,7 +30,8 @@ function App() {
             <Route path={'/test'} element={<Test/>}/>
           </Route>
           <Route element={<ProtectedRoutes/>}>
-            <Route path={'/addbook'} element={<Test/>}/>
+            <Route path={'/addbook'} element={<AddBook/>}/>
+            <Route path={'/addlocation'} element={<AddLocation/>}/>
           </Route>
           
           <Route path={'/contact'} element={<Contact/>}/>
