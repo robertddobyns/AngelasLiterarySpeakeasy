@@ -3,6 +3,7 @@ import {Box, Input, InputLabel, MenuItem, Select, styled, Typography} from '@mui
 import pageData from '../../bannedBooks.json';
 import {useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
+import axios from "axios";
 
 const Root = styled('div')(({theme}) =>({
   maxWidth: '1000px',
@@ -30,18 +31,14 @@ const BookPage = () => {
   let pageUrl = useParams();
   
   useEffect(() => {
-    
     const data = () => {
-      const info = pageData.find(i => i.url === pageUrl.bookName);
-      let locations = [];
-      setPage(info);
-     
-      locations = info.locations.map(item => item.state)
-      locations = locations.filter((item, index) => locations.indexOf(item) === index);
-      locations = locations.sort();
-      setLocationArray(locations);
+      axios.get(process.env.REACT_APP_API_BASE + 'books/url/' + pageUrl.bookName)
+        .then(res => (
+          setPage(res.data),
+          setLocationArray(res.data.locations)
+        ))
+        .catch(e => e.message)
     }
-    
     data()
   }, [])
   
@@ -59,17 +56,20 @@ const BookPage = () => {
   const filteredList = () => {
     return filteredStates.map(item =>
       <SchoolInfo
+        id={item.id}
         name={item.name}
         city={item.city}
         state={item.state}
         reasons={item.reasons}
         year={item.year}
+        status={item.status}
       />) || ''
   }
   
   const unfilteredList = () => {
     return page.locations?.map(item =>
       <SchoolInfo
+        id={item.id}
         name={item.name}
         city={item.city}
         state={item.state}
@@ -96,8 +96,8 @@ const BookPage = () => {
                 value={stateFilter}
                 label={'Select State'}
               >
-                <MenuItem value={'All'}>All</MenuItem>
-                {locationArray?.map(item => item && <MenuItem key={item.name} value={item || ''}>{item || ''}</MenuItem>)}
+                <MenuItem key={0} value={'All'}>All</MenuItem>
+                {locationArray?.map(item => item && <MenuItem key={item.id} value={item.state || ''}>{item.state || ''}</MenuItem>)}
               </Select>
           </div>
         </BannedListTitleContainer>

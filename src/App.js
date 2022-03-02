@@ -13,6 +13,7 @@ import Donations from "./components/pages/donations/Donations";
 import ProtectedRoutes from "./components/security/ProtectedRoute";
 import Test from './components/security/Test';
 import {UserContext} from "./components/security/UserContext";
+import AddBook from "./components/pages/addData/AddBook";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -27,6 +28,10 @@ function App() {
           <Route element={<ProtectedRoutes/>}>
             <Route path={'/test'} element={<Test/>}/>
           </Route>
+          <Route element={<ProtectedRoutes/>}>
+            <Route path={'/addbook'} element={<Test/>}/>
+          </Route>
+          
           <Route path={'/contact'} element={<Contact/>}/>
           <Route path={'/faqs'} element={<FAQs/>}/>
           <Route path={'/privacypolicy'} element={<PrivacyPolicy/>}/>

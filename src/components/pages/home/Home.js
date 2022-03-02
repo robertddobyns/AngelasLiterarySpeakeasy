@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { styled } from '@mui/material';
+import axios from "axios";
 
-import bookInfo from '../../bannedBooks.json';
+// import bookInfo from '../../bannedBooks.json';
 import Book from "./Book";
 
 const Root = styled('div')(({theme}) => ({
@@ -10,10 +11,21 @@ const Root = styled('div')(({theme}) => ({
   padding: '0 10px'
 }));
 
+
 const Home = () => {
+  const [bookInfo, setBookInfo] = useState([])
+  
+  useEffect(() => {
+    const getData = () => {
+      axios.get(process.env.REACT_APP_API_BASE + 'books')
+        .then(res => setBookInfo(res.data))
+    }
+    getData()
+  }, [])
 
   return (
     <Root>
+      {/*{process.env.REACT_APP_KEY_BUTT}*/}
       {bookInfo.map(item =>
         <Book
           id={item.id}
