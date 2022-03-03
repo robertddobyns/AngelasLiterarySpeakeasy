@@ -1,7 +1,8 @@
 import React, {useContext, useState} from 'react';
-import {Button, Link, styled, TextField} from '@mui/material';
+import {Button, styled, TextField} from '@mui/material';
 import {UserContext} from "../../security/UserContext";
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 const Root = styled('div')(({theme}) => ({
 	width: '1000px',
@@ -55,8 +56,8 @@ const AddBook = () => {
 	}
 	
 	return (
-		<Root onSubmit={handleSubmit}>
-			<Form>
+		<Root >
+			<Form onSubmit={handleSubmit}>
 				<TextField required variant={'standard'} label={'Book Name'} onChange={(e) => setName(e.target.value)}/>
 				<TextField required variant={'standard'} label={'Site Url'} onChange={(e) => setUrl(e.target.value)}/>
 				<TextField required variant={'standard'} label={'Author'} onChange={(e) => setAuthor(e.target.value)}/>
@@ -66,7 +67,7 @@ const AddBook = () => {
 				<Button type={'submit'}>Submit</Button>
 			</Form>
 			<div>
-				<Link>+Add Location</Link>
+				<Link to={'/addlocation'}>+Add Location</Link>
 			</div>
 		</Root>
 	)
