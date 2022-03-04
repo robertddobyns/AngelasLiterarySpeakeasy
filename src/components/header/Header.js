@@ -1,5 +1,6 @@
 import React, {useContext, useState} from 'react';
 import {styled, Button, TextField, Modal, Link} from "@mui/material";
+import {Link as RRLink} from 'react-router-dom';
 import {UserContext} from '../security/UserContext';
 import axios from "axios";
 
@@ -140,7 +141,10 @@ const Header = () => {
   return (
     <Root>
       { user ?
-        <LogoutContainer><Button variant={'text'} onClick={handleLogout}>Log Out</Button> </LogoutContainer> :
+        <LogoutContainer>
+          <RRLink to={'/addbook'}>+Book</RRLink>
+          <Button variant={'text'} onClick={handleLogout} sx={{marginLeft: '20px'}}>Log Out</Button>
+        </LogoutContainer> :
         <LoginLong/>}
       <Modal
         open={loginModalOpen}

@@ -1,9 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {Box, Input, InputLabel, MenuItem, Select, styled, Typography} from '@mui/material';
 import pageData from '../../bannedBooks.json';
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
 import axios from "axios";
+import {UserContext} from "../../security/UserContext";
 
 const Root = styled('div')(({theme}) =>({
   maxWidth: '1000px',
@@ -28,6 +29,7 @@ const BookPage = () => {
   const [locationArray, setLocationArray] = useState([])
   const [stateFilter, setStateFilter] = useState('All')
   const [filteredStates, setFilteredStates] = useState(['moo'])
+  const user = useContext(UserContext);
   let pageUrl = useParams();
   
   useEffect(() => {
@@ -85,7 +87,9 @@ const BookPage = () => {
     <Root>
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
-      <BannedListContainer>
+      {user.user && <Link to={'/addlocation'}>+Location</Link>}
+      {console.log(user)}
+      {page.locations?.length > 0 && <BannedListContainer>
         <BannedListTitleContainer>
           {page.locations?.length > 0 && <Typography variant={'h4'} sx={{marginRight: '20px'}}>Banned Locations</Typography>}
           <div style={{display: 'flex', flexDirection: 'column'}}>
@@ -103,7 +107,7 @@ const BookPage = () => {
         </BannedListTitleContainer>
         {stateFilter !== 'All' ? filteredList() : unfilteredList()
         }
-      </BannedListContainer>
+      </BannedListContainer>}
     </Root>
   )
   

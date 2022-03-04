@@ -21,6 +21,12 @@ const Form = styled('form')(({theme}) => ({
 	flexDirection: 'column',
 }));
 
+const ButtonContainer = styled('div')(({theme}) => ({
+	display: 'flex',
+	justifyContent: 'center',
+	marginTop: '20px'
+}))
+
 const AddBook = () => {
 	
 	const [name, setName] = useState('');
@@ -48,23 +54,36 @@ const AddBook = () => {
 			}
 		)
 			.then(
-				res => console.log(res.data)
+				handleClearForm
 			)
 			.catch(
 				e => console.log(e.message)
 			)
 	}
 	
+	const handleClearForm = () => {
+		setName('')
+		setUrl('')
+		setAuthor('')
+		setAmazon('')
+		setBn('')
+		setImageUrl('')
+	}
+	
+	
 	return (
 		<Root >
 			<Form onSubmit={handleSubmit}>
-				<TextField required variant={'standard'} label={'Book Name'} onChange={(e) => setName(e.target.value)}/>
-				<TextField required variant={'standard'} label={'Site Url'} onChange={(e) => setUrl(e.target.value)}/>
-				<TextField required variant={'standard'} label={'Author'} onChange={(e) => setAuthor(e.target.value)}/>
-				<TextField variant={'standard'} label={'Image Url'} onChange={(e) => setImageUrl(e.target.value)}/>
-				<TextField variant={'standard'} label={'Amazon Url'} onChange={(e) => setAmazon(e.target.value)}/>
-				<TextField variant={'standard'} label={'Barns & Noble Url'} onChange={(e) => setBn(e.target.value)}/>
-				<Button type={'submit'}>Submit</Button>
+				<TextField value={name || ''} required variant={'standard'} label={'Book Name'}  onChange={(e) => setName(e.target.value)}/>
+				<TextField value={url || ''} required variant={'standard'} label={'Site Url'} onChange={(e) => setUrl(e.target.value)}/>
+				<TextField value={author || ''} required variant={'standard'} label={'Author'} onChange={(e) => setAuthor(e.target.value)}/>
+				<TextField value={imageUrl || ''} variant={'standard'} label={'Image Url'} onChange={(e) => setImageUrl(e.target.value)}/>
+				<TextField value={amazon || ''} variant={'standard'} label={'Amazon Url'} onChange={(e) => setAmazon(e.target.value)}/>
+				<TextField value={bn || ''} variant={'standard'} label={'Barns & Noble Url'} onChange={(e) => setBn(e.target.value)}/>
+				<ButtonContainer>
+					<Button type={'submit'} sx={{marginRight: '20px'}}>Submit</Button>
+					<Button onClick={handleClearForm}>Clear Form</Button>
+				</ButtonContainer>
 			</Form>
 			<div>
 				<Link to={'/addlocation'}>+Add Location</Link>

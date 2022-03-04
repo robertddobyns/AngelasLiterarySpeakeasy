@@ -25,7 +25,6 @@ const Home = () => {
 
   return (
     <Root>
-      {process.env.NODE_ENV}
       {bookInfo.map(item =>
         <Book
           id={item.id}

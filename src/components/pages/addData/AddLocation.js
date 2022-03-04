@@ -21,6 +21,12 @@ const Form = styled('form')(({theme}) => ({
 	flexDirection: 'column',
 }));
 
+const ButtonContainer = styled('div')(({theme}) => ({
+	display: 'flex',
+	justifyContent: 'center',
+	marginTop: '20px'
+}))
+
 const AddLocation = () => {
 	const [booksArray, setBooksArray] = useState([])
 	const [book, setBook] = useState({})
@@ -60,7 +66,7 @@ const AddLocation = () => {
 				}
 			)
 			.then(
-				res => console.log(res.data)
+				handleClearForm
 			)
 			.catch(
 				e => console.log(e.message)
@@ -70,6 +76,14 @@ const AddLocation = () => {
 	const handleSelect = (e) => {
 		e.preventDefault()
 		setBook(e.target.value)
+	}
+	
+	const handleClearForm = () => {
+		setLocationYear('')
+		setLocationStatus('')
+		setLocationCity('')
+		setLocationState('')
+		setLocationName('')
 	}
 	
 	return (
@@ -90,7 +104,10 @@ const AddLocation = () => {
 				<TextField value={locationStatus || ''} variant={'standard'} label={'Status'} onChange={(e) => setLocationStatus(e.target.value)}/>
 				<TextField value={locationYear || ''} variant={'standard'} label={'Year'} onChange={(e) => setLocationYear(e.target.value)}/>
 				<TextField type={'hidden'} value={book || ''}/>
-				<Button type={'submit'}>Submit</Button>
+				<ButtonContainer>
+					<Button type={'submit'}>Submit</Button>
+					<Button onClick={handleClearForm} sx={{marginLeft: '40px'}}>Clear Form</Button>
+				</ButtonContainer>
 			</Form>
 		</Root>
 	)
