@@ -164,7 +164,7 @@ const Header = () => {
         {loginModal}
       </Modal>
       <TitleContainer>
-        Angela's Literary Speakeasy
+        <Link href={'/'} sx={{textDecoration: 'none', color: 'black'}}>Angela's Literary Speakeasy</Link>
       </TitleContainer>
       <SubtitleContainer>
         An ever growing list of books banned in schools and communities across the United States
