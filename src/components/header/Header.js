@@ -3,6 +3,7 @@ import {styled, Button, TextField, Modal, Link} from "@mui/material";
 import {Link as RRLink} from 'react-router-dom';
 import {UserContext} from '../security/UserContext';
 import axios from "axios";
+import {useNavigate} from "react-router";
 
 const Root = styled('div')(({theme}) => ({
   margin: '0 auto',
@@ -90,6 +91,7 @@ const Header = () => {
   const [usernameText, setUsernameText] = useState('');
   const [passwordText, setPasswordText] = useState('');
   const {user, setUser} = useContext(UserContext);
+  const navigate = useNavigate();
   
   const handleLoginModalOpen = () => {
     setLoginModalOpen(true);
@@ -104,7 +106,7 @@ const Header = () => {
   const handleLogout = () => {
     setUser(null);
     localStorage.removeItem('user')
-    window.location.reload();
+    navigate("/", {replace: true})
   }
   
   const getLoginData = (event) => {
