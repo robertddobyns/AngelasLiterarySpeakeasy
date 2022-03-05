@@ -40,6 +40,9 @@ function App() {
           <Route path={'/references'} element={<References/>}/>
           <Route path={'/donations'} element={<Donations/>}/>
           <Route path={'/'} element={<Home/>}/>
+          <Route path={'/*'} element={
+            <h2 style={{minHeight: '56vh', textAlign: 'center'}}>Yo homie, where you trying to go?</h2>
+          }/>
         </Routes>
         <Footer/>
       </UserContext.Provider>

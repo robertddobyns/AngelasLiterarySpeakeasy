@@ -27,6 +27,7 @@ const BannedListTitleContainer = styled('div')(({}) => ({
 const BookPage = () => {
   const [page, setPage] = useState([]);
   const [locationArray, setLocationArray] = useState([])
+  const [statesArray, setStatesArray] = useState([])
   const [stateFilter, setStateFilter] = useState('All')
   const [filteredStates, setFilteredStates] = useState(['moo'])
   const user = useContext(UserContext);
@@ -41,8 +42,17 @@ const BookPage = () => {
         ))
         .catch(e => e.message)
     }
+    const stateData = () => {
+      axios.get(process.env.REACT_APP_API_BASE + 'books/locationState/' + pageUrl.bookName )
+        .then(res =>
+          setStatesArray(res.data)
+        )
+        .catch(e => e.message)
+    }
     data()
+    stateData()
   }, [])
+
   
   const displayBannedStates = (state) => {
     let stateArray = page.locations.filter(item => item.state === state);
@@ -81,7 +91,6 @@ const BookPage = () => {
       />
     )
   }
-
   
   return (
     <Root>
@@ -100,7 +109,7 @@ const BookPage = () => {
                 label={'Select State'}
               >
                 <MenuItem key={0} value={'All'}>All</MenuItem>
-                {locationArray?.map(item => item && <MenuItem key={item.id} value={item.state || ''}>{item.state || ''}</MenuItem>)}
+                {statesArray?.map(item => item && <MenuItem key={item || 0} value={item || ''}>{item || ''}</MenuItem>)}
               </Select>
           </div>
         </BannedListTitleContainer>
