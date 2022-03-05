@@ -88,7 +88,6 @@ const BookPage = () => {
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
       {user.user && <Link to={'/addlocation'}>+Location</Link>}
-      {console.log(user)}
       {page.locations?.length > 0 && <BannedListContainer>
         <BannedListTitleContainer>
           {page.locations?.length > 0 && <Typography variant={'h4'} sx={{marginRight: '20px'}}>Banned Locations</Typography>}

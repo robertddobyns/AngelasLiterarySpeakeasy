@@ -103,7 +103,7 @@ const AddLocation = () => {
 				<TextField value={locationState || ''} variant={'standard'} label={'State'} onChange={(e) => setLocationState(e.target.value)}/>
 				<TextField value={locationStatus || ''} variant={'standard'} label={'Status'} onChange={(e) => setLocationStatus(e.target.value)}/>
 				<TextField value={locationYear || ''} variant={'standard'} label={'Year'} onChange={(e) => setLocationYear(e.target.value)}/>
-				<TextField type={'hidden'} value={book || ''}/>
+				<input type={'hidden'} value={book}/>
 				<ButtonContainer>
 					<Button type={'submit'}>Submit</Button>
 					<Button onClick={handleClearForm} sx={{marginLeft: '40px'}}>Clear Form</Button>

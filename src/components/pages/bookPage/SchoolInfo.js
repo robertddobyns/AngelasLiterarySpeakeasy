@@ -1,5 +1,8 @@
-import React from 'react';
-import {styled, Box, Typography} from "@mui/material";
+import React, {useContext, useState} from 'react';
+import {styled, Box, Typography, Button, TextField} from "@mui/material";
+import {UserContext} from "../../security/UserContext";
+import axios from "axios";
+import ReasonList from "./ReasonList";
 
 const Root = styled('div')(({theme}) => ({
 	margin: '20px 0'
@@ -13,6 +16,8 @@ const NameRow = styled('div')(({theme}) => ({
 	fontSize: '20px'
 }));
 
+
+
 const SchoolInfo = (props) => {
 	const id = props.id || 99999999
 	const name = props.name || ''
@@ -21,6 +26,19 @@ const SchoolInfo = (props) => {
 	const year = props.year || ''
 	const reasons = props.reasons || ["No reasons stated"]
 	const status = props.status || ''
+	const [reasonText, setReasonText] = useState('')
+	const user = useContext(UserContext) || null
+	
+	const AddReasonsButton = () => {
+		return (
+			<Button variant={'text'}>
+				+ Reason
+			</Button>
+		)
+	}
+
+
+
 
 	return (
 		<Root key={id}>
@@ -28,7 +46,7 @@ const SchoolInfo = (props) => {
 			<TextRow>{city}, {state}</TextRow>
 			<TextRow>Year: {year}</TextRow>
 			<TextRow>Status: {status}</TextRow>
-			<div>Reasons: {reasons.map(item => <div key={item.id}>&emsp;{item.reason}</div>)}</div>
+			{reasons && <ReasonList locationId={id} reasons={reasons} />}
 			<hr style={{width: '300px', height:'3px',borderWidth: '0',backgroundColor:'#570861'}}/>
 		</Root>
 	)
