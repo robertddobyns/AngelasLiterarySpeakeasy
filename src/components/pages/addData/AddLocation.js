@@ -2,7 +2,7 @@ import React, {useContext, useEffect, useState} from 'react';
 import {Button, MenuItem, Select, styled, TextField} from '@mui/material';
 import {UserContext} from "../../security/UserContext";
 import axios from "axios";
-import {Link} from "react-router-dom";
+import {useNavigate} from "react-router";
 
 const Root = styled('div')(({theme}) => ({
 	width: '1000px',
@@ -36,6 +36,7 @@ const AddLocation = () => {
 	const [locationStatus, setLocationStatus] = useState('');
 	const [locationYear, setLocationYear] = useState('');
 	const user = useContext(UserContext) || null;
+	const navigate = useNavigate();
 	
 	useEffect(() => {
 		const getBooks = () =>{
@@ -66,7 +67,7 @@ const AddLocation = () => {
 				}
 			)
 			.then(
-				handleClearForm
+				navigate(-1)
 			)
 			.catch(
 				e => console.log(e.message)
