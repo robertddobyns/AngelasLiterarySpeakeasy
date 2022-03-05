@@ -31,6 +31,7 @@ const ReasonList = (props) => {
 				}
 			}
 		)
+		window.location.reload();
 	}
 	
 	const handleAddReason = () => {
@@ -44,6 +45,7 @@ const ReasonList = (props) => {
 					'Authorization': user.user
 				}
 			})
+		window.location.reload();
 	}
 	
 	return (

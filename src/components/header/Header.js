@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {styled, Button, TextField, Modal, Link} from "@mui/material";
 import {Link as RRLink} from 'react-router-dom';
 import {UserContext} from '../security/UserContext';
@@ -103,7 +103,8 @@ const Header = () => {
   
   const handleLogout = () => {
     setUser(null);
-    window.location.reload(true);
+    localStorage.removeItem('user')
+    window.location.reload();
   }
   
   const getLoginData = (event) => {
@@ -114,6 +115,7 @@ const Header = () => {
       })
       .then((response) => {
         response.headers.authorization ? setUser(response.headers.authorization)  : console.log("item not found");
+        response.headers.authorization && localStorage.setItem('user', response.headers.authorization)
         handleLoginModalClose();
       })
       .catch(e => {
@@ -137,6 +139,13 @@ const Header = () => {
       </FormContainer>
     </ModalContainer>
   )
+  
+  useEffect(() => {
+    const getUser = () => {
+      localStorage.getItem('user') && setUser(localStorage.getItem('user'))
+    }
+    getUser()
+  }, [])
   
   return (
     <Root>
