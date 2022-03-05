@@ -1,6 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {Box, Input, InputLabel, MenuItem, Select, styled, Typography} from '@mui/material';
-import pageData from '../../bannedBooks.json';
+import {InputLabel, MenuItem, Select, styled, Typography} from '@mui/material';
 import {Link, useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
 import axios from "axios";
@@ -26,7 +25,6 @@ const BannedListTitleContainer = styled('div')(({}) => ({
 
 const BookPage = () => {
   const [page, setPage] = useState([]);
-  const [locationArray, setLocationArray] = useState([])
   const [statesArray, setStatesArray] = useState([])
   const [stateFilter, setStateFilter] = useState('All')
   const [filteredStates, setFilteredStates] = useState(['moo'])
@@ -37,8 +35,7 @@ const BookPage = () => {
     const data = () => {
       axios.get(process.env.REACT_APP_API_BASE + 'books/url/' + pageUrl.bookName)
         .then(res => (
-          setPage(res.data),
-          setLocationArray(res.data.locations)
+          setPage(res.data)
         ))
         .catch(e => e.message)
     }
@@ -96,6 +93,7 @@ const BookPage = () => {
     <Root>
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
+      <Typography>{page.description}</Typography>
       {user.user && <Link to={'/addlocation'}>+Location</Link>}
       {page.locations?.length > 0 && <BannedListContainer>
         <BannedListTitleContainer>
