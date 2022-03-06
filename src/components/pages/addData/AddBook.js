@@ -1,5 +1,5 @@
 import React, {useContext, useState} from 'react';
-import {Button, styled, TextField} from '@mui/material';
+import {Button, styled, TextareaAutosize, TextField} from '@mui/material';
 import {UserContext} from "../../security/UserContext";
 import axios from "axios";
 import {Link} from "react-router-dom";
@@ -35,6 +35,7 @@ const AddBook = () => {
 	const [imageUrl, setImageUrl] = useState('');
 	const [amazon, setAmazon] = useState('');
 	const [bn, setBn] = useState('');
+	const [description, setDescription] = useState('')
 	const user = useContext(UserContext) || null;
 	
 	const handleSubmit = (e) => {
@@ -46,7 +47,8 @@ const AddBook = () => {
 				author: author,
 				imageUrl: imageUrl,
 				amazon: amazon,
-				bn: bn
+				bn: bn,
+				description: description
 			}, {
 				headers: {
 					'Authorization': user.user
@@ -68,6 +70,7 @@ const AddBook = () => {
 		setAmazon('')
 		setBn('')
 		setImageUrl('')
+		setDescription('')
 	}
 	
 	
@@ -80,6 +83,7 @@ const AddBook = () => {
 				<TextField value={imageUrl || ''} variant={'standard'} label={'Image Url'} onChange={(e) => setImageUrl(e.target.value)}/>
 				<TextField value={amazon || ''} variant={'standard'} label={'Amazon Url'} onChange={(e) => setAmazon(e.target.value)}/>
 				<TextField value={bn || ''} variant={'standard'} label={'Barns & Noble Url'} onChange={(e) => setBn(e.target.value)}/>
+				<TextareaAutosize placeholder={'Description'} minRows={3} value={description || ''} onChange={e => setDescription(e.target.value)}/>
 				<ButtonContainer>
 					<Button type={'submit'} sx={{marginRight: '20px'}}>Submit</Button>
 					<Button onClick={handleClearForm}>Clear Form</Button>
