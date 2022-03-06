@@ -57,7 +57,7 @@ const Footer = () => {
 				<Box><Link to={'/faqs'} style={linkStyle}>FAQs</Link></Box>
 				<Box><Link to={'/privacypolicy'} style={linkStyle}>Privacy Policy</Link></Box>
 				<Box><Link to={'/references'} style={linkStyle}>References</Link></Box>
-				<Box><Link to={'/donations'} style={linkStyle}>Donations</Link></Box>
+				<Box><Link to={'/donations'} style={linkStyle}>Donations & Expenses</Link></Box>
 			</LinksContainer>
 			<InfoContainer>
 				Version: {config.VERSION} | Last Updated {config.PUBLISH_DATE}
