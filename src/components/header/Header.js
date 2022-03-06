@@ -1,9 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
-import {styled, Button, TextField, Modal, Link} from "@mui/material";
+import {styled, Button, TextField, Modal, Link, IconButton} from "@mui/material";
 import {Link as RRLink} from 'react-router-dom';
 import {UserContext} from '../security/UserContext';
 import axios from "axios";
 import {useNavigate} from "react-router";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faHome} from "@fortawesome/free-solid-svg-icons";
 
 const Root = styled('div')(({theme}) => ({
   margin: '0 auto',
@@ -85,6 +87,19 @@ const LogoutContainer = styled('div')(({theme}) => ({
   padding: '10px'
 }))
 
+const HomeButtonContainer = styled('div')(({theme}) => ({
+  position: 'absolute',
+  [theme.breakpoints.down('sm')] : {
+    top: 0,
+    left: 0,
+  },
+  [theme.breakpoints.up('sm')] : {
+    top: '10px',
+    left: '10px'
+  }
+}))
+
+
 const Header = () => {
   
   const [loginModalOpen, setLoginModalOpen] = useState(false);
@@ -151,6 +166,9 @@ const Header = () => {
   
   return (
     <Root>
+      <HomeButtonContainer>
+        <IconButton href={"/"} sx={{color: '#570861'}}><FontAwesomeIcon icon={faHome}/></IconButton>
+      </HomeButtonContainer>
       { user ?
         <LogoutContainer>
           <RRLink to={'/addbook'}>+Book</RRLink>

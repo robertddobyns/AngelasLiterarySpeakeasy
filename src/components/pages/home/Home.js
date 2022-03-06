@@ -1,8 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { styled } from '@mui/material';
+import {styled} from '@mui/material';
 import axios from "axios";
 
-// import bookInfo from '../../bannedBooks.json';
 import Book from "./Book";
 
 const Root = styled('div')(({theme}) => ({

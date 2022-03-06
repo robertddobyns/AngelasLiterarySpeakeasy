@@ -1,6 +1,5 @@
 import React from 'react';
-import {IconButton, styled, Typography} from '@mui/material';
-import PropTypes from 'prop-types';
+import {IconButton, styled} from '@mui/material';
 import {Link} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAmazon} from "@fortawesome/free-brands-svg-icons";
