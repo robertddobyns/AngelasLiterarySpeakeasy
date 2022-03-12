@@ -16,9 +16,10 @@ const PrivacyPolicy = () => {
 			This is going to be easy. I don't collect any data. At all. This is why when you click a checkbox and refresh
 			the page, the check mark is no longer there. This is also why there's no login that saves your information
 			when you return to the site. At some point I might save checked boxes to your local computer but I'll never save it because I have no use for it. There might be one user or a million users and I'll never
-			know. At some point I might add Google analytics to be able to show the number of users but if that happens, I'll
-			update the privacy statement. There's no database at all attached by me to this site so there's no way for me save
-			user data if I wanted to.
+			know.
+			I have Google Analytics installed just so I can see how many people are visiting my site in a given period. This
+			will help when speaking with people and indie book stores interested in teaming up to make this site even more successful. I don't
+			collect user data and have no desire ever to.
 		</Root>
 	)
 	

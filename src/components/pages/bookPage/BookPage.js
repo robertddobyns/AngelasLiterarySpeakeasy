@@ -4,6 +4,7 @@ import {Link, useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
 import axios from "axios";
 import {UserContext} from "../../security/UserContext";
+import {Helmet} from "react-helmet";
 
 const Root = styled('div')(({theme}) =>({
   maxWidth: '1000px',
@@ -91,6 +92,9 @@ const BookPage = () => {
   
   return (
     <Root>
+      <Helmet>
+        <title>{page ? 'LiterarySpeakeasy | ' + page.name : 'LiterarySpeakeasy'}</title>
+      </Helmet>
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
       <Typography>{page.description}</Typography>
