@@ -10,7 +10,8 @@ const Root = styled('div')(({theme}) => ({
 	padding: '0 10px',
 	display: 'flex',
 	flexDirection: 'column',
-	minHeight: '56vh'
+	minHeight: '56vh',
+	paddingTop: '200px'
 }))
 
 const Form = styled('form')(({theme}) => ({
