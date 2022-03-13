@@ -8,9 +8,12 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHome} from "@fortawesome/free-solid-svg-icons";
 
 const Root = styled('div')(({theme}) => ({
-  margin: '0 auto',
   textAlign: 'center',
-  marginBottom: '30px',
+  position: 'fixed',
+  width: '100%',
+  backgroundColor: '#F6F1D1',
+  zIndex: 1,
+  boxShadow: '1px 0 20px black',
 }))
 
 const TitleContainer = styled('div')(({theme}) => ({
@@ -99,6 +102,11 @@ const HomeButtonContainer = styled('div')(({theme}) => ({
   }
 }))
 
+const NavBarContainer = styled('div')(({theme}) => ({
+  background: '#570861',
+  color: 'white',
+  padding: '5px 0'
+}))
 
 const Header = () => {
   
@@ -184,11 +192,14 @@ const Header = () => {
         {loginModal}
       </Modal>
       <TitleContainer>
-        <Link href={'/'} sx={{textDecoration: 'none', color: 'black'}}>Angela's Literary Speakeasy</Link>
+        <Link href={'/'} sx={{textDecoration: 'none', color: '#8C7284'}}>Angela's Literary Speakeasy</Link>
       </TitleContainer>
       <SubtitleContainer>
         An ever growing list of books banned in schools and communities across the United States
       </SubtitleContainer>
+      <NavBarContainer>
+      
+      </NavBarContainer>
     </Root>
   )
   

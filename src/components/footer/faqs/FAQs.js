@@ -8,7 +8,8 @@ const FAQs = () => {
 		maxWidth: '1000px',
 		margin: '0 auto',
 		padding: '0 10px',
-		minHeight: '55vh'
+		minHeight: '55vh',
+		paddingTop: '200px'
 	}));
 	
 	return (

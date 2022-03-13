@@ -10,7 +10,8 @@ const Root = styled('div')(({theme}) =>({
   maxWidth: '1000px',
   margin: '0 auto',
   minHeight: '60vh',
-  padding: '0 10px'
+  padding: '0 10px',
+  paddingTop: '200px'
 }))
 
 const BannedListContainer = styled('div')(({theme}) => ({
