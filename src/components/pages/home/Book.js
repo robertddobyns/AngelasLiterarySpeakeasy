@@ -80,7 +80,7 @@ const Book = (props) => {
 	return (
 		<Link to={'/page/' + props.url} style={{textDecoration: 'none'}}>
 			<Root key={props.id}>
-					<div style={{minWidth: '200px'}}>
+					<div style={{width: '200px', margin: 'auto 0'}}>
 						<img
 							src={image}
 							onError={({currentTarget}) => {
@@ -88,7 +88,7 @@ const Book = (props) => {
 								currentTarget.src = noImage
 							}}
 							alt={props.name}
-							style={{marginRight: '10px', height: '100%', width: 'auto'}}/>
+							style={{marginRight: '10px', height: 'auto', width: '100%'}}/>
 					</div>
 					<DetailContainer>
 						<Title>{props.name}</Title>
