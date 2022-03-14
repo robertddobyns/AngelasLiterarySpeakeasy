@@ -12,7 +12,9 @@ const Root = styled('div')(({theme}) => ({
 	border: '1px solid black',
 	position: 'relative',
 	minHeight: '300px',
-	color: 'black'
+	color: 'black',
+	backgroundColor: 'white',
+	boxShadow: '5px 5px 10px #555'
 }))
 
 const Title = styled('div')(({theme}) => ({

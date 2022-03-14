@@ -11,7 +11,8 @@ const Root = styled('div')(({theme}) => ({
 	display: 'flex',
 	flexDirection: 'column',
 	minHeight: '56vh',
-	paddingTop: '200px'
+	paddingTop: '200px',
+	backgroundColor: 'white'
 }))
 
 const Form = styled('form')(({theme}) => ({

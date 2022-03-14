@@ -5,7 +5,7 @@ import axios from "axios";
 import ReasonList from "./ReasonList";
 
 const Root = styled('div')(({theme}) => ({
-	margin: '20px 0'
+	marginTop: '10px'
 }))
 
 const TextRow = styled('div')(({theme}) => ({

@@ -11,7 +11,9 @@ const Root = styled('div')(({theme}) =>({
   margin: '0 auto',
   minHeight: '60vh',
   padding: '0 10px',
-  paddingTop: '200px'
+  paddingTop: '200px',
+  marginBottom: '0',
+  backgroundColor: 'white'
 }))
 
 const BannedListContainer = styled('div')(({theme}) => ({
