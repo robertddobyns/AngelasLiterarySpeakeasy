@@ -48,6 +48,8 @@ const Home = () => {
           amazon={item.amazon}
           author={item.author}
           bn={item.bn}
+          tags={item.tags || []}
+          locations={item.locations}
         />)
       }
  
