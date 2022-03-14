@@ -80,7 +80,7 @@ const Book = (props) => {
 	return (
 		<Link to={'/page/' + props.url} style={{textDecoration: 'none'}}>
 			<Root key={props.id}>
-					<div style={{width: '200px', margin: 'auto 0'}}>
+					<div style={{width: '225px', margin: 'auto 0', paddingLeft: '10px'}}>
 						<img
 							src={image}
 							onError={({currentTarget}) => {
