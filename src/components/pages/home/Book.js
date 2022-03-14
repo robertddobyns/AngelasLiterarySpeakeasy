@@ -11,7 +11,7 @@ const Root = styled('div')(({theme}) => ({
 	marginBottom: '20px',
 	border: '1px solid black',
 	position: 'relative',
-	height: '300px',
+	minHeight: '300px',
 	color: 'black'
 }))
 
@@ -98,7 +98,7 @@ const Book = (props) => {
 							<p><span style={{fontWeight: 'bold', color: 'orange'}}>Restricted</span>: {restricted}</p>
 							<p><span style={{fontWeight: 'bold', color: 'blue'}}>Challenged</span>: {challenged}</p>
 							<p><span style={{fontWeight: 'bold', color: 'green'}}>Ban Failed</span>: {failed}</p>
-							<p>Tags: {tags.map((item, index) => <span key={index} style={{color:'red'}}>{ (index ? ', ' : '') + item }</span>)} </p>
+							<p style={{lineHeight: '18px'}}>Tags: {tags.map((item, index) => <span key={index} style={{color:'red'}}>{ (index ? ', ' : '') + item }</span>)} </p>
 						</StatusContainer>
 					</DetailContainer>
 			</Root>
