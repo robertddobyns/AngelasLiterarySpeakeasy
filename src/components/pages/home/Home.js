@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {styled, Typography} from '@mui/material';
+import {styled} from '@mui/material';
 import axios from "axios";
 import {Helmet} from "react-helmet";
 
 import Book from "./Book";
+import Search from '../../search/Search';
 
 const Root = styled('div')(({theme}) => ({
   maxWidth: '1000px',
@@ -22,35 +23,43 @@ const StatsContainer = styled('div')(({theme}) => ({
 
 const Home = () => {
   const [bookInfo, setBookInfo] = useState([])
-  
+  const search = new URLSearchParams(window.location.search).get('search');
+
   useEffect(() => {
     const getData = () => {
-      axios.get(process.env.REACT_APP_API_BASE + 'books')
-        .then(res => setBookInfo(res.data))
+      if (search) {
+        axios.get(process.env.REACT_APP_API_BASE + 'books?search=' + search)
+            .then(res => setBookInfo(res.data))
+      } else {
+        axios.get(process.env.REACT_APP_API_BASE + 'books')
+            .then(res => setBookInfo(res.data))
+      }
     }
     getData()
   }, [])
 
   return (
-    <Root>
-      <Helmet>
-        <title>LiterarySpeakeasy | Home</title>
-      </Helmet>
-      {/*<StatsContainer>*/}
-      {/*  <Typography>Number of books (currently): {bookInfo.length} </Typography>*/}
-      {/*</StatsContainer>*/}
-      {bookInfo.map(item =>
-        <Book
-          id={item.id}
-          imageUrl={item.imageUrl}
-          url={item.url}
-          name={item.name}
-          amazon={item.amazon}
-          author={item.author}
-          bn={item.bn}
-          tags={item.tags || []}
-          locations={item.locations}
-        />)
+      <Root>
+        <Helmet>
+          <title>LiterarySpeakeasy | Home</title>
+        </Helmet>
+        {/*<StatsContainer>*/}
+        {/*  <Typography>Number of books (currently): {bookInfo.length} </Typography>*/}
+        {/*</StatsContainer>*/}
+        <Search/>
+        {bookInfo.map(book =>
+            <Book
+                key={book.id}
+                id={book.id}
+                imageUrl={book.imageUrl}
+                url={book.url}
+                name={book.name}
+                amazon={book.amazon}
+                author={book.author}
+                bn={book.bn}
+                tags={book.tags || []}
+                locations={book.locations}
+            />)
       }
  
     </Root>
