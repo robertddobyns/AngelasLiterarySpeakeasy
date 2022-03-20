@@ -21,6 +21,12 @@ const StatsContainer = styled('div')(({theme}) => ({
   marginBottom: '20px'
 }))
 
+const NothingFoundContainer = styled('div')(({theme}) => ({
+  width: '100%',
+  textAlign: 'center',
+  color: 'white'
+}))
+
 const Home = () => {
   const [bookInfo, setBookInfo] = useState([])
   const search = new URLSearchParams(window.location.search).get('search');
@@ -47,7 +53,8 @@ const Home = () => {
         {/*  <Typography>Number of books (currently): {bookInfo.length} </Typography>*/}
         {/*</StatsContainer>*/}
         <Search/>
-        {bookInfo.map(book =>
+        {bookInfo.length > 0 ?
+          bookInfo.map(book =>
             <Book
                 key={book.id}
                 id={book.id}
@@ -60,6 +67,8 @@ const Home = () => {
                 tags={book.tags || []}
                 locations={book.locations}
             />)
+          :
+          <NothingFoundContainer>Nothing Found</NothingFoundContainer>
       }
  
     </Root>
