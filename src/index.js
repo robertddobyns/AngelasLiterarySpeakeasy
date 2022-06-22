@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter} from "react-router-dom";
+import {HashRouter, Routes, Route} from "react-router-dom";
+import {AuthProvider} from "./components/security/AuthProvider";
 
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter>
-      <App />
+      <AuthProvider>
+        <Routes>
+          <Route path={'/*'} element={<App />} />
+        </Routes>
+      </AuthProvider>
     </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')

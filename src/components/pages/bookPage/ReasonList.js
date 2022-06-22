@@ -1,7 +1,5 @@
 import React, {useContext, useState} from 'react';
 import {Button, styled, TextField} from '@mui/material';
-import PropTypes from 'prop-types';
-import {UserContext} from "../../security/UserContext";
 import axios from "axios";
 
 const Root = styled('div')(({theme}) => {
@@ -14,10 +12,10 @@ const ReasonsDiv = styled('div')(({theme}) => ({
 
 
 const ReasonList = (props) => {
+	const [user, setUser] = useState({user: null})
 	const locationId = props.locationId || ''
 	const reasons = props.reasons || []
 	const [currentReason, setCurrentReason] = useState('')
-	const user = useContext(UserContext);
 	
 	const handleRemoveReason = (reasonId) => {
 		axios.post(process.env.REACT_APP_API_BASE + 'locations/deleteReason',

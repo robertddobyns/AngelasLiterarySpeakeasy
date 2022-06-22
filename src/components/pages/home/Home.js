@@ -11,7 +11,6 @@ const Root = styled('div')(({theme}) => ({
   margin: '0 auto',
   padding: '0 10px',
   minHeight: '56vh',
-  paddingTop: '200px'
 }));
 
 const StatsContainer = styled('div')(({theme}) => ({

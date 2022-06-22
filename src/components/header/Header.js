@@ -1,29 +1,129 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {styled, Button, TextField, Modal, Link, IconButton} from "@mui/material";
 import {Link as RRLink} from 'react-router-dom';
-import {UserContext} from '../security/UserContext';
 import axios from "axios";
 import {useNavigate} from "react-router";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faHome} from "@fortawesome/free-solid-svg-icons";
+import {parse} from '../security/parseJwt'
+
+
+const Header = () => {
+  const [user, setUser] = useState(null);
+  const [loginModalOpen, setLoginModalOpen] = useState(false);
+  const [usernameText, setUsernameText] = useState('');
+  const [passwordText, setPasswordText] = useState('');
+  const navigate = useNavigate();
+  
+  const handleLoginModalOpen = () => {
+    setLoginModalOpen(true);
+  }
+  
+  const handleLoginModalClose = () => {
+    setLoginModalOpen(false);
+    setUsernameText('');
+    setPasswordText('');
+  }
+  
+  const handleLogout = () => {
+    setUser(null);
+    localStorage.removeItem('token')
+    localStorage.removeItem('authorities')
+    localStorage.removeItem('username')
+    navigate("/", {replace: true})
+  }
+  
+  const getLoginData = (event) => {
+    event.preventDefault();
+    axios.post(process.env.REACT_APP_API_BASE + "login", {
+        username: usernameText,
+        password: passwordText
+      })
+      .then((response) => {
+        response.headers.authorization ? setUser(response.headers.authorization)  : console.log("item not found");
+        response.headers.authorization && parse(response.headers.authorization)
+        handleLoginModalClose();
+      })
+      .catch(e => {
+        console.log(e);
+      })
+  }
+
+  const LoginLong = () => {
+    return (
+      <LoginContainer>
+        <Button variant={'text'} onClick={handleLoginModalOpen}>Log In</Button>
+      </LoginContainer>
+    )}
+  
+  const loginModal = (
+    <ModalContainer >
+      <FormContainer noValidate autoComplete={'off'}>
+        <TextField id={'username'} label={'Username'} value={usernameText} onChange={(e) => setUsernameText(e.target.value)} autoFocus sx={{marginBottom: '10px'}}/>
+        <TextField id={'password'} label={'Password'} type={'password'} value={passwordText} onChange={(e) => setPasswordText(e.target.value)}/>
+        <Button variant={'contained'} color={'primary'} style={{marginTop: '10px'}} disableElevation onClick={getLoginData} type={"submit"}>Submit</Button>
+      </FormContainer>
+    </ModalContainer>
+  )
+  
+  useEffect(() => {
+    const getUser = () => {
+      localStorage.getItem('token') && setUser(localStorage.getItem('token'))
+    }
+    getUser()
+  }, [])
+  
+  return (
+    <Root>
+      <HomeButtonContainer>
+        <IconButton href={"/"} sx={{color: '#570861'}}><FontAwesomeIcon icon={faHome}/></IconButton>
+      </HomeButtonContainer>
+      { user ?
+        <LogoutContainer>
+          <RRLink to={'/addbook'}>+Book</RRLink>
+          <Button variant={'text'} onClick={handleLogout} sx={{marginLeft: '20px'}}>Log Out</Button>
+        </LogoutContainer> :
+        <LoginLong/>}
+      <Modal
+        open={loginModalOpen}
+        onClose={handleLoginModalClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        {loginModal}
+      </Modal>
+      <TitleContainer>
+        <Link href={'/'} sx={{textDecoration: 'none', color: '#8C7284'}}>Angela's Literary Speakeasy</Link>
+      </TitleContainer>
+      <SubtitleContainer>
+        An ever growing list of books banned in schools and communities across the United States
+      </SubtitleContainer>
+      <NavBarContainer>
+      
+      </NavBarContainer>
+    </Root>
+  )
+}
 
 const Root = styled('div')(({theme}) => ({
   textAlign: 'center',
-  position: 'fixed',
+  position: 'sticky',
+  top: 0,
   width: '100%',
   backgroundColor: '#F6F1D1',
   zIndex: 1,
   boxShadow: '1px 0 20px black',
+  marginBottom: '20px'
 }))
 
 const TitleContainer = styled('div')(({theme}) => ({
   fontWeight: 'bold',
-  margin: '20px',
   [theme.breakpoints.down('sm')]: {
-    fontSize: '25px'
+    paddingTop: '20px',
+    fontSize: '15px'
   },
   [theme.breakpoints.up('sm')]: {
-    fontSize: '40px'
+    fontSize: '35px'
   },
   [theme.breakpoints.up('md')]: {
     fontSize: '50px'
@@ -34,7 +134,7 @@ const SubtitleContainer = styled('div')(({theme}) => ({
   textAlign: 'center',
   paddingBottom: '10px',
   [theme.breakpoints.down('sm')]: {
-    fontSize: '15px'
+    fontSize: '11px'
   },
   [theme.breakpoints.up('sm')]: {
     fontSize: '20px'
@@ -107,102 +207,5 @@ const NavBarContainer = styled('div')(({theme}) => ({
   color: 'white',
   padding: '5px 0'
 }))
-
-const Header = () => {
-  
-  const [loginModalOpen, setLoginModalOpen] = useState(false);
-  const [usernameText, setUsernameText] = useState('');
-  const [passwordText, setPasswordText] = useState('');
-  const {user, setUser} = useContext(UserContext);
-  const navigate = useNavigate();
-  
-  const handleLoginModalOpen = () => {
-    setLoginModalOpen(true);
-  }
-  
-  const handleLoginModalClose = () => {
-    setLoginModalOpen(false);
-    setUsernameText('');
-    setPasswordText('');
-  }
-  
-  const handleLogout = () => {
-    setUser(null);
-    localStorage.removeItem('user')
-    navigate("/", {replace: true})
-  }
-  
-  const getLoginData = (event) => {
-    event.preventDefault();
-    axios.post(process.env.REACT_APP_API_BASE + "login", {
-        username: usernameText,
-        password: passwordText
-      })
-      .then((response) => {
-        response.headers.authorization ? setUser(response.headers.authorization)  : console.log("item not found");
-        response.headers.authorization && localStorage.setItem('user', response.headers.authorization)
-        handleLoginModalClose();
-      })
-      .catch(e => {
-        console.log(e);
-      })
-  }
-
-  const LoginLong = () => {
-    return (
-      <LoginContainer>
-        <Button variant={'text'} onClick={handleLoginModalOpen}>Log In</Button>
-      </LoginContainer>
-    )}
-  
-  const loginModal = (
-    <ModalContainer >
-      <FormContainer noValidate autoComplete={'off'}>
-        <TextField id={'username'} label={'Username'} value={usernameText} onChange={(e) => setUsernameText(e.target.value)} autoFocus sx={{marginBottom: '10px'}}/>
-        <TextField id={'password'} label={'Password'} type={'password'} value={passwordText} onChange={(e) => setPasswordText(e.target.value)}/>
-        <Button variant={'contained'} color={'primary'} style={{marginTop: '10px'}} disableElevation onClick={getLoginData} type={"submit"}>Submit</Button>
-      </FormContainer>
-    </ModalContainer>
-  )
-  
-  useEffect(() => {
-    const getUser = () => {
-      localStorage.getItem('user') && setUser(localStorage.getItem('user'))
-    }
-    getUser()
-  }, [])
-  
-  return (
-    <Root>
-      <HomeButtonContainer>
-        <IconButton href={"/"} sx={{color: '#570861'}}><FontAwesomeIcon icon={faHome}/></IconButton>
-      </HomeButtonContainer>
-      { user ?
-        <LogoutContainer>
-          <RRLink to={'/addbook'}>+Book</RRLink>
-          <Button variant={'text'} onClick={handleLogout} sx={{marginLeft: '20px'}}>Log Out</Button>
-        </LogoutContainer> :
-        <LoginLong/>}
-      <Modal
-        open={loginModalOpen}
-        onClose={handleLoginModalClose}
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
-      >
-        {loginModal}
-      </Modal>
-      <TitleContainer>
-        <Link href={'/'} sx={{textDecoration: 'none', color: '#8C7284'}}>Angela's Literary Speakeasy</Link>
-      </TitleContainer>
-      <SubtitleContainer>
-        An ever growing list of books banned in schools and communities across the United States
-      </SubtitleContainer>
-      <NavBarContainer>
-      
-      </NavBarContainer>
-    </Root>
-  )
-  
-}
 
 export default Header;

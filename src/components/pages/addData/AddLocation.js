@@ -1,6 +1,5 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Button, MenuItem, Select, styled, TextField} from '@mui/material';
-import {UserContext} from "../../security/UserContext";
 import axios from "axios";
 import {useNavigate} from "react-router";
 
@@ -30,6 +29,7 @@ const ButtonContainer = styled('div')(({theme}) => ({
 }))
 
 const AddLocation = () => {
+	const [user, setUser] = useState(null);
 	const [booksArray, setBooksArray] = useState([])
 	const [book, setBook] = useState({})
 	const [locationName, setLocationName] = useState('');
@@ -37,7 +37,6 @@ const AddLocation = () => {
 	const [locationState, setLocationState] = useState('');
 	const [locationStatus, setLocationStatus] = useState('');
 	const [locationYear, setLocationYear] = useState('');
-	const user = useContext(UserContext) || null;
 	const navigate = useNavigate();
 	
 	useEffect(() => {

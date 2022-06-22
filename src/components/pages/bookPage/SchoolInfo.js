@@ -1,7 +1,5 @@
 import React, {useContext, useState} from 'react';
 import {styled, Box, Typography, Button, TextField} from "@mui/material";
-import {UserContext} from "../../security/UserContext";
-import axios from "axios";
 import ReasonList from "./ReasonList";
 
 const Root = styled('div')(({theme}) => ({
@@ -27,7 +25,6 @@ const SchoolInfo = (props) => {
 	const reasons = props.reasons || ["No reasons stated"]
 	const status = props.status || ''
 	const [reasonText, setReasonText] = useState('')
-	const user = useContext(UserContext) || null
 	
 	const AddReasonsButton = () => {
 		return (

@@ -1,6 +1,5 @@
 import React, {useContext, useState} from 'react';
 import {Button, styled, TextareaAutosize, TextField} from '@mui/material';
-import {UserContext} from "../../security/UserContext";
 import axios from "axios";
 import {Link} from "react-router-dom";
 
@@ -30,7 +29,7 @@ const ButtonContainer = styled('div')(({theme}) => ({
 }))
 
 const AddBook = () => {
-	
+	const [user, setUser] = useState(null);
 	const [name, setName] = useState('');
 	const [url, setUrl] = useState('');
 	const [author, setAuthor] = useState('');
@@ -38,7 +37,6 @@ const AddBook = () => {
 	const [amazon, setAmazon] = useState('');
 	const [bn, setBn] = useState('');
 	const [description, setDescription] = useState('')
-	const user = useContext(UserContext) || null;
 	
 	const handleSubmit = (e) => {
 		e.preventDefault()

@@ -1,4 +1,5 @@
-import {Button, styled, TextField} from "@mui/material";
+import {Button, InputAdornment, styled, TextField} from "@mui/material";
+import SearchIcon from '@mui/icons-material/Search';
 
 const Form = styled('form')(({theme}) =>({
 	display: 'flex',
@@ -8,7 +9,7 @@ const Form = styled('form')(({theme}) =>({
 		flexDirection: 'column',
 	},
 	[theme.breakpoints.up('sm')]: {
-		maxWidth: '500px',
+		maxWidth: '700px',
 		flexDirection: 'row'
 	},
 	
@@ -24,7 +25,9 @@ const TextFieldContainer = styled(TextField)(({theme}) => ({
 		marginBottom: '10px'
 	},
 	[theme.breakpoints.up('sm')]: {
-		marginBottom: '0'
+		marginBottom: '0',
+		marginRight: '10px',
+		width: '75%'
 	}
 }))
 
@@ -36,7 +39,7 @@ const ButtonContainer = styled('div')(({theme}) => ({
 	},
 	[theme.breakpoints.up('sm')] : {
 		display: 'flex',
-		justifyContent: 'space-between',
+		justifyContent: 'space-around',
 		width: '50%'
 	}
 
@@ -60,6 +63,9 @@ const Search = () => {
 				name="search"
 				defaultValue={search}
 				hiddenLabel
+				InputProps={{
+					endAdornment: <SearchIcon/>
+				}}
 			/>
 			<ButtonContainer>
 				<Button variant={'contained'} sx={{backgroundColor: '#570861'}} type="submit">Search</Button>

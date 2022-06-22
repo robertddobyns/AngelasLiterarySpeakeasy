@@ -3,36 +3,15 @@ import {InputLabel, MenuItem, Select, styled, Typography} from '@mui/material';
 import {Link, useParams} from "react-router-dom";
 import SchoolInfo from "./SchoolInfo";
 import axios from "axios";
-import {UserContext} from "../../security/UserContext";
 import {Helmet} from "react-helmet";
 
-const Root = styled('div')(({theme}) =>({
-  maxWidth: '1000px',
-  margin: '0 auto',
-  minHeight: '60vh',
-  padding: '0 10px',
-  paddingTop: '200px',
-  marginBottom: '0',
-  backgroundColor: 'white'
-}))
-
-const BannedListContainer = styled('div')(({theme}) => ({
-  [theme.breakpoints.down('sm')] : {
-  
-  }
-}));
-
-const BannedListTitleContainer = styled('div')(({}) => ({
-  display: 'flex',
-  alignItems: 'center'
-}));
-
 const BookPage = () => {
+  
   const [page, setPage] = useState([]);
   const [statesArray, setStatesArray] = useState([])
   const [stateFilter, setStateFilter] = useState('All')
   const [filteredStates, setFilteredStates] = useState(['moo'])
-  const user = useContext(UserContext);
+  const [user, setUser] = useState('')
   let pageUrl = useParams();
   
   useEffect(() => {
@@ -54,6 +33,9 @@ const BookPage = () => {
     stateData()
   }, [])
 
+  useEffect(() => {
+    localStorage.getItem('username') && setUser(localStorage.getItem('username'))
+  }, [])
   
   const displayBannedStates = (state) => {
     let stateArray = page.locations.filter(item => item.state === state);
@@ -69,6 +51,7 @@ const BookPage = () => {
   const filteredList = () => {
     return filteredStates.map(item =>
       <SchoolInfo
+        key={item.id}
         id={item.id}
         name={item.name}
         city={item.city}
@@ -82,6 +65,7 @@ const BookPage = () => {
   const unfilteredList = () => {
     return page.locations?.map(item =>
       <SchoolInfo
+        key={item.id}
         id={item.id}
         name={item.name}
         city={item.city}
@@ -101,7 +85,7 @@ const BookPage = () => {
       <Typography variant={'h3'} component={'h1'} sx={{textAlign: 'center', fontStyle: 'italic'}}>{page.name}</Typography>
       <Typography variant={'h5'} sx={{textAlign: 'center', marginBottom: '30px'}}>By: {page.author}</Typography>
       <Typography>{page.description}</Typography>
-      {user.user && <Link to={'/addlocation'}>+Location</Link>}
+      {user && <Link to={'/addlocation'}>+Location</Link>}
       {page.locations?.length > 0 && <BannedListContainer>
         <BannedListTitleContainer>
           {page.locations?.length > 0 && <Typography variant={'h4'} sx={{marginRight: '20px'}}>Banned Locations</Typography>}
@@ -125,6 +109,27 @@ const BookPage = () => {
   )
   
 }
+
+const Root = styled('div')(({theme}) =>({
+  maxWidth: '1000px',
+  margin: '0 auto',
+  minHeight: '60vh',
+  padding: '0 10px',
+  paddingTop: '200px',
+  marginBottom: '0',
+  backgroundColor: 'white'
+}))
+
+const BannedListContainer = styled('div')(({theme}) => ({
+  [theme.breakpoints.down('sm')] : {
+  
+  }
+}));
+
+const BannedListTitleContainer = styled('div')(({}) => ({
+  display: 'flex',
+  alignItems: 'center'
+}));
 
 BookPage.propTypes = {}
 
