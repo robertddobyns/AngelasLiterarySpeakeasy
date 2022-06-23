@@ -29,7 +29,7 @@ function App() {
 				<Route path={'/donations'} element={<Donations/>}/>
 				<Route path={'/'} element={<Home/>}/>
 			</Route>
-			<Route element={<RequireAuth allowedRoles={['ROLE_ADMIN']}/>}>
+			<Route element={<RequireAuth allowedRoles={['ROLE_ADMIN', 'ADMIN']}/>}>
 				{/*Admin Only Routes */}
 					<Route path={'/test'} element={<Test/>}/>
 					<Route path={'/addbook'} element={<AddBook/>}/>
