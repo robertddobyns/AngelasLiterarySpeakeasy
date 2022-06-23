@@ -8,7 +8,7 @@ const RequireAuth = ({ allowedRoles}) => {
   return (
       user && allowedRoles.includes(roles)
           ? <Outlet/>
-          : <Navigate to={'/'} state={{from: location}} replace />
+          : <>{console.log(user)}<Navigate to={'/'} state={{from: location}} replace /></>
         )
 }
 
