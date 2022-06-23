@@ -18,8 +18,9 @@ function App() {
 	
 	return (
 		<Routes>
+			
+			{/*Public Routes*/}
 			<Route path={'/'} element={<Layout/>}>
-				{/*Public Routes*/}
 				<Route path={'/page/:bookName'} element={<BookPage/>}/>
 				<Route path={'/about'} element={<About/>}/>
 				<Route path={'/contact'} element={<Contact/>}/>
@@ -29,11 +30,12 @@ function App() {
 				<Route path={'/donations'} element={<Donations/>}/>
 				<Route path={'/'} element={<Home/>}/>
 			</Route>
-			<Route element={<RequireAuth allowedRoles={['ROLE_ADMIN', 'ADMIN']}/>}>
-				{/*Admin Only Routes */}
-					<Route path={'/test'} element={<Test/>}/>
-					<Route path={'/addbook'} element={<AddBook/>}/>
-					<Route path={'/addlocation'} element={<AddLocation/>}/>
+			
+			{/*Admin Only Routes */}
+			<Route element={<RequireAuth allowedRoles={['ROLE_ADMIN']}/>}>
+				<Route path={'/test'} element={<Test/>}/>
+				<Route path={'/addbook'} element={<AddBook/>}/>
+				<Route path={'/addlocation'} element={<AddLocation/>}/>
 			</Route>
 		</Routes>
 	);
