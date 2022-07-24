@@ -31,6 +31,26 @@ const Home = () => {
 					name={'description'}
 					content={'A central location for learning about banned books in North America'}
 				/>
+				<meta
+					property="og:title"
+					content="Angela's Literary Speakeasy"
+				/>
+				<meta
+					property="og:description"
+					content="A central location for learning about banned books in North America"
+				/>
+				<meta
+					property="og:url"
+					content="https://literaryspeakeasy.com"
+				/>
+				<meta
+					property="twitter:title"
+					content="Angela's Literary Speakeasy"
+				/>
+				<meta
+					property="twitter:description"
+					content="A central location for learning about banned books in North America"
+				/>
 			</Helmet>
 			{/*<StatsContainer>*/}
 			{/*  <Typography>Number of books (currently): {bookInfo.length} </Typography>*/}
