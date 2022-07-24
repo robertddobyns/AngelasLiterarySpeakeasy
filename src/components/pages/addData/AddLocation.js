@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Button, MenuItem, Select, styled, TextField} from '@mui/material';
 import axios from "axios";
 import {useNavigate} from "react-router";
@@ -29,7 +29,7 @@ const ButtonContainer = styled('div')(({theme}) => ({
 }))
 
 const AddLocation = () => {
-	const [user, setUser] = useState(null);
+	const [token, setToken] = useState(null);
 	const [booksArray, setBooksArray] = useState([])
 	const [book, setBook] = useState({})
 	const [locationName, setLocationName] = useState('');
@@ -51,6 +51,10 @@ const AddLocation = () => {
 		getBooks()
 	}, [])
 	
+	useEffect(() => {
+		setToken(localStorage.getItem('token'))
+	}, [])
+	
 	const handleSubmit = (e) => {
 		e.preventDefault()
 		axios.post(process.env.REACT_APP_API_BASE + 'locations/bookId',
@@ -63,7 +67,7 @@ const AddLocation = () => {
 					year: locationYear,
 				}, {
 					headers: {
-						'Authorization': user.user
+						'Authorization': token
 					}
 				}
 			)

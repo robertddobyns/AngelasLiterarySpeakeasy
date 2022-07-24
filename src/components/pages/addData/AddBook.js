@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {Button, styled, TextareaAutosize, TextField} from '@mui/material';
 import axios from "axios";
 import {Link} from "react-router-dom";
@@ -29,7 +29,7 @@ const ButtonContainer = styled('div')(({theme}) => ({
 }))
 
 const AddBook = () => {
-	const [user, setUser] = useState(null);
+	const [token, setToken] = useState(null);
 	const [name, setName] = useState('');
 	const [url, setUrl] = useState('');
 	const [author, setAuthor] = useState('');
@@ -37,6 +37,10 @@ const AddBook = () => {
 	const [amazon, setAmazon] = useState('');
 	const [bn, setBn] = useState('');
 	const [description, setDescription] = useState('')
+	
+	useEffect(() => {
+		setToken(localStorage.getItem('token'))
+	}, [])
 	
 	const handleSubmit = (e) => {
 		e.preventDefault()
@@ -51,7 +55,7 @@ const AddBook = () => {
 				description: description
 			}, {
 				headers: {
-					'Authorization': user.user
+					'Authorization': token
 				}
 			}
 		)

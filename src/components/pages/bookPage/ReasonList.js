@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {Button, styled, TextField} from '@mui/material';
 import axios from "axios";
 
@@ -12,10 +12,14 @@ const ReasonsDiv = styled('div')(({theme}) => ({
 
 
 const ReasonList = (props) => {
-	const [user, setUser] = useState({user: null})
+	const [token, setToken] = useState(null)
 	const locationId = props.locationId || ''
 	const reasons = props.reasons || []
 	const [currentReason, setCurrentReason] = useState('')
+	
+	useEffect(() => {
+		setToken(localStorage.getItem('token'))
+	},[])
 	
 	const handleRemoveReason = (reasonId) => {
 		axios.post(process.env.REACT_APP_API_BASE + 'locations/deleteReason',
@@ -25,7 +29,7 @@ const ReasonList = (props) => {
 			},
 			{
 				headers: {
-					'Authorization' : user.user
+					'Authorization' : token
 				}
 			}
 		)
@@ -40,7 +44,7 @@ const ReasonList = (props) => {
 			},
 			{
 				headers: {
-					'Authorization': user.user
+					'Authorization': token
 				}
 			})
 		window.location.reload();
@@ -48,8 +52,8 @@ const ReasonList = (props) => {
 	
 	return (
 		<Root>
-			<div>Reasons: {reasons.map(item => <div key={item.id}>&emsp;{user.user && <Button variant={'text'} onClick={() => handleRemoveReason(item.id)}>-</Button> }{item.reason}</div>)}</div>
-			{user.user &&
+			<div>Reasons: {reasons.map(item => <div key={item.id}>&emsp;{token && <Button variant={'text'} onClick={() => handleRemoveReason(item.id)}>-</Button> }{item.reason}</div>)}</div>
+			{token &&
 				<ReasonsDiv>
 					<TextField value={currentReason || ''} variant={'standard'} label={'Reason'} onChange={(e) => setCurrentReason(e.target.value)}/>
 					<Button variant={'text'} onClick={handleAddReason}>Add Reason</Button>
