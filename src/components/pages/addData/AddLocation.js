@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Button, MenuItem, Select, styled, TextField} from '@mui/material';
+import {Button, InputLabel, MenuItem, Select, styled, TextField} from '@mui/material';
 import axios from "axios";
 import {useNavigate} from "react-router";
 
@@ -107,7 +107,18 @@ const AddLocation = () => {
 				<TextField value={locationName || ''} variant={'standard'} label={'Location Name'} onChange={(e) => setLocationName(e.target.value)}/>
 				<TextField value={locationCity || ''} variant={'standard'} label={'City/County'} onChange={(e) => setLocationCity(e.target.value)}/>
 				<TextField value={locationState || ''} variant={'standard'} label={'State'} onChange={(e) => setLocationState(e.target.value)}/>
-				<TextField value={locationStatus || ''} variant={'standard'} label={'Status'} onChange={(e) => setLocationStatus(e.target.value)}/>
+				<InputLabel id={'statusDropdownLabel'}>Status</InputLabel>
+				<Select
+					labelId={'statusDropdownLabel'}
+					value={locationStatus}
+					label={'Status'}
+					onChange={(e) => setLocationStatus(e.target.value)}
+				>
+					<MenuItem value={'Banned'}>Banned</MenuItem>
+					<MenuItem value={'Restricted'}>Restricted</MenuItem>
+					<MenuItem value={'Challenged'}>Challenged</MenuItem>
+					<MenuItem value={'Ban Failed'}>Ban Failed</MenuItem>
+				</Select>
 				<TextField value={locationYear || ''} variant={'standard'} label={'Year'} onChange={(e) => setLocationYear(e.target.value)}/>
 				<input type={'hidden'} value={book}/>
 				<ButtonContainer>
