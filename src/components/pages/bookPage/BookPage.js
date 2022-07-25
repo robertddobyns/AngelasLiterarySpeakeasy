@@ -80,7 +80,7 @@ const BookPage = () => {
   return (
     <Root>
       <Helmet>
-        <title>{page ? 'Literary Speakeasy | ' + page.name : 'LiterarySpeakeasy'}</title>
+        <title>{page ? page.name + ' | ' + page.author : 'LiterarySpeakeasy'}</title>
         <meta
           name={'description'}
           content={'The history of ' + page.name + ' being banned'}
