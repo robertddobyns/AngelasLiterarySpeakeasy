@@ -67,6 +67,7 @@ const Home = () => {
 						amazon={book.amazon}
 						author={book.author}
 						bn={book.bn}
+						bookshop={book.bookshop}
 						tags={book.tags || []}
 						locations={book.locations}
 					/>)
