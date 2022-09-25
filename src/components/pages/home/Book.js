@@ -148,6 +148,7 @@ const StatusContainer = styled('div')(({ theme }) => ({
 }))
 
 const PurchaseContainer = styled('div')(({ theme }) => ({
+	borderTop: '1px solid black',
 	height: '100px',
 	padding: '0 10px',
 }))
@@ -162,6 +163,8 @@ const PurchaseLinkContainer = styled('div')(({ theme }) => ({
 	display: 'flex',
 	justifyContent: 'space-around',
 	alignItems: 'center',
+	margin: '0 auto',
+	maxWidth: '500px'
 }))
 
 Book.propTypes = {}
