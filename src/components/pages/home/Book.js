@@ -71,7 +71,7 @@ const Book = (props) => {
 					{props.bookshop || props.amazon ?
 						<>
 							{props.bookshop &&
-								<a href={props.bookshop}>
+								<a href={props.bookshop} target={'_blank'}>
 									<img
 										src={BookshopLogo}
 										alt={'Bookshop.org logo'}
@@ -79,7 +79,7 @@ const Book = (props) => {
 								</a>
 							}
 							{props.amazon &&
-								<a href={props.amazon}>
+								<a href={props.amazon} target={'_blank'} >
 									<FontAwesomeIcon icon={faAmazon} size={'2x'} />
 								</a>
 							}
